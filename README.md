@@ -1,140 +1,245 @@
-# ⚡ Welcome to my Digital Space! ⚡
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1000&color=38B2AC&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+A.+Gokulan+👋;Founder+%26+Lead+Developer;Building+VoltMedia+by+ALTUS;Full+Stack+Cloud+Engineer" alt="Typing SVG" />
+
+<!-- ANIMATED HEADER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=venom&height=300&text=A.%20GOKULAN&fontSize=80&color=0:0f0c29,50:302b63,100:24243e&fontColor=ffffff&stroke=6C63FF&strokeWidth=2&animation=fadeIn&fontAlignY=55&desc=Full%20Stack%20Engineer%20%7C%20UI%2FUX%20Designer%20%7C%20Founder%20of%20Volt%20Media&descAlignY=75&descSize=16" width="100%" />
+
 </div>
+
+<!-- TYPING ANIMATION ROW -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&repeat=true&width=600&lines=Building+the+web%2C+one+pixel+at+a+time.;Founder+%40+Volt+Media+by+ALTUS.;React+%7C+Next.js+%7C+Cloud+Engineer.;Turning+ideas+into+digital+experiences." alt="Typing SVG" />
+</div>
+
+<br/>
+
+<!-- PROFILE VIEWS + SOCIAL PROOF ROW -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=rkivln&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS" alt="Profile Views" />
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/rkivln?style=for-the-badge&color=6C63FF&labelColor=0d1117&label=FOLLOWERS" alt="Followers" />
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/rkivln?style=for-the-badge&color=6C63FF&labelColor=0d1117&label=TOTAL+STARS" alt="Stars" />
+</div>
+
+<br/>
 
 ---
 
-## 💫 About Me
-<p align="left">
-  <img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZreXN2ZTI3Y3Rndm14M3N0ZWh5NWh5N3M4MXZ4YndwZ3ZpZXZiZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/du3J3cXyzhj75IOgvA/giphy.gif" width="220" alt="Coding Animation" />
+<!-- ABOUT ME SECTION -->
+<div align="center">
+<h2>
+  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28px" />
+  &nbsp; WHO AM I
+</h2>
+</div>
+
+```typescript
+const gokulan = {
+  name:        "A. Gokulan",
+  role:        "Founder & Lead Developer",
+  company:     "Volt Media by ALTUS",
+  location:    "Puducherry 🇮🇳",
+  education:   "B.Tech CSBS — Sri Manakula Vinayagar Engineering College",
+
+  expertise:   ["Full Stack Development", "UI/UX Design", "Cloud Architecture"],
+  currentFocus: "Building scalable, pixel-perfect digital experiences",
   
-  🔥 **Founder & Lead Developer** passionate about crafting high-performance digital experiences.<br>
-  architecture. <br><br>
-  💡 I specialize in building scalable web applications, robust cloud infrastructures, and sleek user interfaces. When I'm not orchestrating cloud pipelines, I'm pushing pixels to perfection.
-</p>
+  connects:    ["React", "Next.js", "Node.js", "AWS", "Figma", "Tailwind"],
+  brandString: "RKIVLN",
 
-<p align="left">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://komarev.com/ghpvc/?username=rkivln&style=flat-square&color=38B2AC&label=PROFILE+VIEWS" alt="Profile Views" />
-  </a>
-</p>
+  funFact:     "I push pixels AND cloud configs before breakfast ☕"
+};
+```
+
+<br/>
 
 ---
 
-## 🌐 Connect With Me
-
+<!-- SOCIAL LINKS -->
 <div align="center">
-  <p align="center">
-    <a href="https://linkedin.com/in/a-gokulan" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:gokulan.rkivln@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://x.com/rkivln" target="_blank"><img src="https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" /></a>
-    <a href="https://youtube.com/@G0KULAN" target="_blank"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube" /></a>
-  </p>
-  <p align="center">
-    <a href="https://discord.gg/rkivln" target="_blank"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
-    <a href="https://instagram.com/rkivln" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat&logo=Instagram&logoColor=white" alt="Instagram" /></a>
-    <a href="https://mastodon.social/@GOKULAN" target="_blank"><img src="https://img.shields.io/badge/-MASTODON-%232B90D9?style=flat&logo=mastodon&logoColor=white" alt="Mastodon" /></a>
-  </p>
+<h2>🌐 &nbsp; FIND ME ONLINE</h2>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/a-gokulan)
+[![X / Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rkivln)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@G0KULAN)
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gokulan.rkivln@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rkivln)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rkivln)
+
 </div>
 
----
-
-## 💻 Tech Stack & Ecosystem
-
-### 🚀 Core Languages & Frameworks
-<p align="left">
-  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS" />
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
-</p>
-
-### ☁️ Cloud, DevOps & Databases
-<p align="left">
-  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
-  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
-</p>
-
-### 🎨 Design & Prototyping
-<p align="left">
-  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue" alt="Framer" />
-</p>
+<br/>
 
 ---
 
-## 📊 Analytics & Metrics
-
+<!-- TECH STACK -->
 <div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.shion.dev/api?username=rkivln&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" width="440px" alt="GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=rkivln&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" width="440px" alt="Top Languages" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://streak-stats.demolab.com/?user=rkivln&theme=tokyonight&hide_border=false" width="100%" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
+<h2>⚡ &nbsp; TECH ECOSYSTEM</h2>
 </div>
 
----
+<table align="center" border="0">
+<tr>
+<td valign="top" width="33%">
 
-## 🏆 Achievements & Badges
+### 🚀 Languages & Frameworks
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rkivln&theme=onedark&no-frame=false&margin-w=4&column=4" width="100%" alt="GitHub Trophies" />
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
 </div>
 
----
+</td>
+<td valign="top" width="33%">
 
-## 📈 Open Source Contributions & Impact
-<p align="center">
-  <em>An overview of repositories where I've left a footprint.</em>
-</p>
-
+### ☁️ Cloud & DevOps
 <div align="center">
-  <!-- Interactive Contribution Header Graphic -->
-  <img src="https://capsule-render.vercel.app/type=Waving&color=gradient&height=120&section=header&text=My%20Contributions&fontSize=24&animation=twinkling" width="100%" alt="Contribution Header" />
 
-  <br><br>
-  
-  <!-- Contribution Stats Display Grid -->
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <h3>🔥 Contribution Breakdown</h3>
-        <img src="https://github-contributor-stats.vercel.app/api?username=rkivln&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" width="100%" alt="Top Contributed Repos" />
-      </td>
-      <td align="center" width="50%">
-        <h3>🗓️ Activity Distribution</h3>
-        <!-- Dynamic Contribution Graph Snake Animation -->
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=rkivln&theme=tokyonight&bg_color=1a1b27&hide_border=true" width="100%" alt="Activity Graph" />
-      </td>
-    </tr>
-  </table>
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0072C6?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat-square&logo=firebase&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
 
-  <br>
-
-  <!-- Interactive 3D Commit Snake Animation -->
-  <h3>Active Contribution Stream</h3>
-  <img src="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
 </div>
 
+</td>
+<td valign="top" width="33%">
+
+### 🎨 Design & Tools
+<div align="center">
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Framer](https://img.shields.io/badge/Framer-0055FF?style=flat-square&logo=framer&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
 ---
 
+<!-- GITHUB ANALYTICS -->
 <div align="center">
-  <sub>⚡ Designed with care by <a href="https://github.com/rkivln">@rkivln</a>. Built utilizing premium open-source metric templates.</sub>
+<h2>📊 &nbsp; GITHUB ANALYTICS</h2>
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rkivln&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=6C63FF&icon_color=6C63FF&text_color=ffffff&ring_color=6C63FF" />
+  &nbsp;
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rkivln&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=ffffff" />
+</div>
+
+<div align="center">
+  <img width="96%" src="https://streak-stats.demolab.com?user=rkivln&theme=tokyonight&hide_border=true&background=0d1117&stroke=6C63FF&ring=6C63FF&fire=FF6584&currStreakLabel=6C63FF&sideLabels=6C63FF&dates=888888" />
+</div>
+
+<br/>
+
+---
+
+<!-- CONTRIBUTION GRAPH (GREEN TABLE) -->
+<div align="center">
+<h2>🌿 &nbsp; CONTRIBUTION ACTIVITY</h2>
+
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=rkivln&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ffffff&area=true&area_color=6C63FF&hide_border=true&custom_title=Gokulan's%20Contribution%20Graph" />
+
+</div>
+
+<!-- SNAKE ANIMATION -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake.svg" width="96%" />
+</picture>
+
+</div>
+
+<br/>
+
+---
+
+<!-- TROPHIES -->
+<div align="center">
+<h2>🏆 &nbsp; ACHIEVEMENTS</h2>
+
+<img src="https://github-profile-trophy.vercel.app/?username=rkivln&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" width="96%" alt="Trophies" />
+
+</div>
+
+<br/>
+
+---
+
+<!-- TOP REPOS -->
+<div align="center">
+<h2>📌 &nbsp; PINNED PROJECTS</h2>
+</div>
+
+<div align="center">
+<a href="https://github.com/rkivln">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rkivln&repo=rkivln&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&icon_color=6C63FF&text_color=ffffff" />
+</a>
+</div>
+
+<br/>
+
+---
+
+<!-- CONTRIBUTION STATS FOOTER BLOCK -->
+<div align="center">
+<h2>📈 &nbsp; OPEN SOURCE FOOTPRINT</h2>
+
+<img src="https://github-contributor-stats.vercel.app/api?username=rkivln&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" width="60%" />
+
+</div>
+
+<br/>
+
+---
+
+<!-- CURRENT STATUS / WPM / WAKATIME (if applicable) -->
+<div align="center">
+
+### 💡 &nbsp; CURRENTLY
+
+```text
+🔭  Building    → Next big thing at Volt Media
+🌱  Learning    → Advanced cloud architecture & WebGL
+💬  Ask me      → Full stack web dev, UI/UX, API design
+⚡  Fun fact    → I debug with lo-fi beats in the background 🎵
+```
+
+</div>
+
+<br/>
+
+---
+
+<!-- ANIMATED FOOTER -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:302b63&height=120&section=footer&animation=fadeIn" width="100%" />
+
+<sub>
+  <strong>⚡ Designed & crafted by <a href="https://github.com/rkivln">@rkivln</a> · Volt Media by ALTUS</strong>
+</sub>
+
 </div>
