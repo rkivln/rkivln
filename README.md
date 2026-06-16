@@ -7,7 +7,7 @@
 
 <!-- TYPING ANIMATION -->
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=900&color=FF3333&center=true&vCenter=true&repeat=true&width=680&lines=⚡+Full+Stack+Engineer+%26+UI%2FUX+Designer;🔥+Founder+%40+Volt+Media+by+ALTUS;🚀+React+%7C+Next.js+%7C+Cloud+%7C+Node.js;💻+Building+pixel-perfect+digital+experiences;⚔️+Code+is+craft.+Design+is+weapon." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=900&color=FF3333&center=true&vCenter=true&repeat=true&width=680&lines=⚡+Full+Stack+Engineer+%26+UI%2FUX+Designer;🔥+Founder+%40+Volt+Media+by+ALTUS;🚀+React+%7C+Next.js+%7C+Cloud+%7C+Node.js;💻+Building+pixel-perfect+digital+experiences;⚔️+Code+is+craft.+Design+is+weapon."  />
 </div>
 
 <br/>
