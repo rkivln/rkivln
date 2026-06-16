@@ -6,9 +6,7 @@
 </div>
 
 <!-- TYPING ANIMATION -->
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=900&color=FF3333&center=true&vCenter=true&repeat=true&width=680&lines=⚡+Full+Stack+Engineer+%26+UI%2FUX+Designer;🔥+Founder+%40+Volt+Media+by+ALTUS;🚀+React+%7C+Next.js+%7C+Cloud+%7C+Node.js;💻+Building+pixel-perfect+digital+experiences;⚔️+Code+is+craft.+Design+is+weapon." alt="Typing SVG" />
-</div>
+
 
 <br/>
 
@@ -177,8 +175,6 @@ const gokulan = {
 <!-- MULTI-COLOUR GLOWING FOOTER -->
 <div align="center">
 
-<!-- Top divider line: red → orange → yellow → purple → violet -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,20:ff6600,40:ffcc00,60:cc00ff,80:6600ff,100:ff0066&height=4&section=footer" width="100%" />
 
 <br/>
 
