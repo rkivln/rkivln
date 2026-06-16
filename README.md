@@ -1,12 +1,14 @@
 <!-- ░░░░░░░░░░░░░ ANIMATED HEADER ░░░░░░░░░░░░░ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&height=300&text=A.%20GOKULAN&fontSize=78&color=0:1a0000,30:6b0000,60:b30000,100:1a0000&fontColor=ff4444&stroke=ff2222&strokeWidth=2&animation=blinking&fontAlignY=50&desc=Founder%20%40%20Volt%20Media%20%E2%80%94%20Full%20Stack%20Engineer%20%7C%20UI%2FUX%20Designer&descAlignY=74&descSize=15&descColor=ff9999" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&height=300&text=A.%20GOKULAN&fontSize=78&color=0:1a0000,30:6b0000,60:b30000,100:1a0000&fontColor=ff4444&stroke=ff2222&strokeWidth=2&animation=fadeIn&fontAlignY=50&desc=Founder%20%40%20Volt%20Media%20%E2%80%94%20Full%20Stack%20Engineer%20%7C%20UI%2FUX%20Designer&descAlignY=74&descSize=15&descColor=ff9999" width="100%" />
 
 </div>
 
 <!-- TYPING ANIMATION -->
-
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=900&color=FF3333&center=true&vCenter=true&repeat=true&width=680&lines=⚡+Full+Stack+Engineer+%26+UI%2FUX+Designer;🔥+Founder+%40+Volt+Media+by+ALTUS;🚀+React+%7C+Next.js+%7C+Cloud+%7C+Node.js;💻+Building+pixel-perfect+digital+experiences;⚔️+Code+is+craft.+Design+is+weapon." alt="Typing SVG" />
+</div>
 
 <br/>
 
@@ -172,14 +174,16 @@ const gokulan = {
 
 ---
 
-<!-- ANIMATED FOOTER -->
+<!-- MULTI-COLOUR GLOWING FOOTER -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0000,50:6b0000,100:1a0000&height=3&section=footer" width="100%" />
+<!-- Top divider line: red → orange → yellow → purple → violet -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,20:ff6600,40:ffcc00,60:cc00ff,80:6600ff,100:ff0066&height=4&section=footer" width="100%" />
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=shark&height=120&color=0:1a0000,50:6b0000,100:1a0000&fontColor=ff4444&animation=twinkling&section=footer&text=RKIVLN%20%E2%80%94%20Volt%20Media%20by%20ALTUS&fontSize=22&fontAlignY=70" width="100%" />
+<!-- Shark wave footer with red→purple multicolour gradient -->
+<img src="https://capsule-render.vercel.app/api?type=shark&height=140&color=0:330000,25:660022,50:440066,75:220044,100:1a0000&fontColor=ffffff&animation=twinkling&section=footer&text=RKIVLN%20%E2%80%94%20Volt%20Media%20by%20ALTUS&fontSize=22&fontAlignY=72" width="100%" />
 
 </div>
 
