@@ -7,7 +7,7 @@
 
 <!-- ══════════════════════ HERO BANNER ══════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/gokulan/gokulan/main/banner.svg"
+<img src="banner.svg"
      alt="Gokulan Anbalagan – Pokémon Trainer Card"
      width="860"/>
 
