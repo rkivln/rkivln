@@ -28,7 +28,7 @@
 
 <!-- ═══════════════════ MOVE SET / SKILLS ══════════════════ -->
 
-<img src="https://raw.githubusercontent.com/gokulan/gokulan/main/moveset.svg"
+<img src="moveset.svg"
      alt="Move Set – Tech Skills"
      width="860"/>
 
@@ -37,7 +37,7 @@
 
 <!-- ════════════════════ POKÉDEX / PROJECTS ════════════════ -->
 
-<img src="https://raw.githubusercontent.com/gokulan/gokulan/main/pokedex.svg"
+<img src="pokedex.svg"
      alt="Pokédex – Projects"
      width="860"/>
 
@@ -129,7 +129,7 @@
 
 <!-- ══════════════════ FOOTER ══════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/gokulan/gokulan/main/footer.svg"
+<img src="footer.svg"
      alt="Footer – Gotta Build Em All"
      width="860"/>
 
