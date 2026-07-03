@@ -12,6 +12,17 @@
      width="860"/>
 
 <br/>
+
+<!-- Real Pokémon lineup in the header -->
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" width="90" alt="Pikachu"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png" width="90" alt="Charizard"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png" width="90" alt="Blastoise"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png" width="90" alt="Venusaur"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png" width="90" alt="Dragonite"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png" width="90" alt="Lucario"/>
+
+<p><sub><i>Trainer's active party</i></sub></p>
+
 <br/>
 
 <!-- ═══════════════════ QUICK TYPE BADGES ══════════════════ -->
@@ -35,11 +46,81 @@
 <br/>
 <br/>
 
-<!-- ════════════════════ POKÉDEX / PROJECTS ════════════════ -->
+<!-- ════════════════════ POKÉDEX / PROJECTS (STATIC) ═══════ -->
 
-<img src="pokedex.svg"
-     alt="Pokédex – Projects"
-     width="860"/>
+```
+◈━━━━━━━━━━━━━━━━━━━━━━━━ POKÉDEX ━━━━━━━━━━━━━━━━━━━━━━━━━◈
+```
+
+<!--
+  This section is now plain Markdown instead of pokedex.svg,
+  so it always renders — no external image-generation service
+  required. Edit the rows below with your real projects.
+-->
+
+<table>
+<tr>
+<td align="center" width="90">
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" width="70" alt="Bulbasaur"/>
+<br/><sub>#001</sub>
+</td>
+<td>
+
+**Project One** — *GRASS TYPE*
+Short description of what it does and the problem it solves.
+`React` `Node.js` `PostgreSQL`
+[Live Demo](#) · [Repo](#)
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="90">
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" width="70" alt="Charmander"/>
+<br/><sub>#004</sub>
+</td>
+<td>
+
+**Project Two** — *FIRE TYPE*
+Short description of what it does and the problem it solves.
+`Next.js` `Tailwind` `Prisma`
+[Live Demo](#) · [Repo](#)
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="90">
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" width="70" alt="Squirtle"/>
+<br/><sub>#007</sub>
+</td>
+<td>
+
+**Project Three** — *WATER TYPE*
+Short description of what it does and the problem it solves.
+`Python` `FastAPI` `AWS`
+[Live Demo](#) · [Repo](#)
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="90">
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" width="70" alt="Pikachu"/>
+<br/><sub>#025</sub>
+</td>
+<td>
+
+**Project Four** — *ELECTRIC TYPE*
+Short description of what it does and the problem it solves.
+`TypeScript` `Figma` `Vercel`
+[Live Demo](#) · [Repo](#)
+
+</td>
+</tr>
+</table>
+
+<sub>⚡ Replace the project names, descriptions, tech tags, and links above with your real projects — add or remove rows as needed. Swap the sprite IDs (e.g. `1.png`, `4.png`) for any other Pokémon via <a href="https://github.com/PokeAPI/sprites">PokeAPI/sprites</a>.</sub>
 
 <br/>
 <br/>
@@ -135,6 +216,23 @@
 
 <br/>
 
+<!-- Real Pokémon lineup in the footer, "evolution" style -->
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" width="70" alt="Bulbasaur"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png" width="70" alt="Ivysaur"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png" width="70" alt="Venusaur"/>
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" width="70" alt="Charmander"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png" width="70" alt="Charmeleon"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png" width="70" alt="Charizard"/>
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" width="70" alt="Squirtle"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png" width="70" alt="Wartortle"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png" width="70" alt="Blastoise"/>
+
+<p><sub><i>Gotta build 'em all</i></sub></p>
+
+<br/>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=gokulan&color=EE1515&style=for-the-badge&label=TRAINERS+VISITED&labelColor=0D0D1A)
 
 </div>
@@ -149,13 +247,22 @@
 <!--       README.md   ← this file                              -->
 <!--       banner.svg                                           -->
 <!--       moveset.svg                                          -->
-<!--       pokedex.svg                                          -->
 <!--       footer.svg                                           -->
+<!--     (pokedex.svg is no longer needed — the Pokédex/       -->
+<!--      Projects section is now static Markdown, and will    -->
+<!--      always render even if the SVG-generation service     -->
+<!--      that used to build it ever goes down.)                -->
 <!--                                                            -->
 <!--  3. Replace every "gokulan" in badge/stats URLs with       -->
 <!--     your actual GitHub username if different.              -->
 <!--                                                            -->
-<!--  4. For the contribution SNAKE animation, add this         -->
+<!--  4. Edit the Pokédex table rows with your real projects,   -->
+<!--     descriptions, tech stacks, and links. Pick any         -->
+<!--     Pokémon's official-artwork sprite by its National      -->
+<!--     Dex number from:                                       -->
+<!--     https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon/other/official-artwork -->
+<!--                                                            -->
+<!--  5. For the contribution SNAKE animation, add this         -->
 <!--     GitHub Action at:  .github/workflows/snake.yml         -->
 <!--                                                            -->
 <!--  name: Generate Snake                                      -->
