@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--        GOKULAN ANBALAGAN  ·  POKÉMON EDITION README        -->
-<!--                   github.com/gokulan                       -->
+<!--     GOKULAN ANBALAGAN  ·  WORLD CUP 2026 EDITION README     -->
+<!--                   github.com/gokulan                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -8,65 +8,51 @@
 <!-- ══════════════════════ HERO BANNER ══════════════════════ -->
 
 <img src="banner.svg"
-     alt="Gokulan Anbalagan – Pokémon Trainer Card"
+     alt="Gokulan Anbalagan – World Cup 2026 Player Card"
      width="860"/>
 
 <br/>
 
-<!-- Real Pokémon lineup in the header -->
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" width="90" alt="Pikachu"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png" width="90" alt="Charizard"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png" width="90" alt="Blastoise"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png" width="90" alt="Venusaur"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png" width="90" alt="Dragonite"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png" width="90" alt="Lucario"/>
-
-<p><sub><i>Trainer's active party</i></sub></p>
+<p><sub><i>🏆 FIFA WORLD CUP 2026 · USA · CANADA · MEXICO 🏆</i></sub></p>
 
 <br/>
 
-<!-- ═══════════════════ QUICK TYPE BADGES ══════════════════ -->
+<!-- ═══════════════════ SQUAD ROLE BADGES ══════════════════ -->
 
-![React](https://img.shields.io/badge/React-WATER%20TYPE-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0D1B2E)
-![Next.js](https://img.shields.io/badge/Next.js-NORMAL%20TYPE-FFFFFF?style=for-the-badge&logo=next.js&logoColor=FFFFFF&labelColor=0D0D0D)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-ICE%20TYPE-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8&labelColor=0D1B2E)
-![Python](https://img.shields.io/badge/Python-ELECTRIC%20TYPE-FFD43B?style=for-the-badge&logo=python&logoColor=FFD43B&labelColor=1A1A0D)
-![Figma](https://img.shields.io/badge/Figma-FIRE%20TYPE-F24E1E?style=for-the-badge&logo=figma&logoColor=F24E1E&labelColor=1A0D0D)
-![AWS](https://img.shields.io/badge/AWS-FLYING%20TYPE-FF9900?style=for-the-badge&logo=amazonaws&logoColor=FF9900&labelColor=1A1000)
+![React](https://img.shields.io/badge/React-STRIKER-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0D1B0D)
+![Next.js](https://img.shields.io/badge/Next.js-CAPTAIN-FFFFFF?style=for-the-badge&logo=next.js&logoColor=FFFFFF&labelColor=0D0D0D)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-WINGER-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8&labelColor=0D1B2E)
+![Python](https://img.shields.io/badge/Python-MIDFIELDER-FFD43B?style=for-the-badge&logo=python&logoColor=1A1A0D&labelColor=1A1A0D)
+![Figma](https://img.shields.io/badge/Figma-PLAYMAKER-F24E1E?style=for-the-badge&logo=figma&logoColor=F24E1E&labelColor=1A0D0D)
+![AWS](https://img.shields.io/badge/AWS-DEFENDER-FF9900?style=for-the-badge&logo=amazonaws&logoColor=FF9900&labelColor=1A1000)
 
 <br/>
 <br/>
 
-<!-- ═══════════════════ MOVE SET / SKILLS ══════════════════ -->
+<!-- ═══════════════════ STARTING XI / SKILLS ═══════════════ -->
 
-<img src="moveset.svg"
-     alt="Move Set – Tech Skills"
+<img src="lineup.svg"
+     alt="Starting XI – Tech Skills Formation"
      width="860"/>
 
 <br/>
 <br/>
 
-<!-- ════════════════════ POKÉDEX / PROJECTS (STATIC) ═══════ -->
+<!-- ════════════════════ MATCH DAY LINEUP / PROJECTS ═══════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━━━━━━ POKÉDEX ━━━━━━━━━━━━━━━━━━━━━━━━━◈
-```
-
-<!--
-  This section is now plain Markdown instead of pokedex.svg,
-  so it always renders — no external image-generation service
-  required. Edit the rows below with your real projects.
--->
+\`\`\`
+⚽━━━━━━━━━━━━━━━━━━━━━━ MATCH DAY LINEUP ━━━━━━━━━━━━━━━━━━━⚽
+\`\`\`
 
 <table>
 <tr>
 <td align="center" width="90">
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" width="70" alt="Bulbasaur"/>
-<br/><sub>#001</sub>
+<div style="font-size:40px">🥅</div>
+<br/><sub>#01 · GK</sub>
 </td>
 <td>
 
-**Project One** — *GRASS TYPE*
+**Project One** — *Clean Sheet Build*
 Short description of what it does and the problem it solves.
 `React` `Node.js` `PostgreSQL`
 [Live Demo](#) · [Repo](#)
@@ -76,12 +62,12 @@ Short description of what it does and the problem it solves.
 
 <tr>
 <td align="center" width="90">
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" width="70" alt="Charmander"/>
-<br/><sub>#004</sub>
+<div style="font-size:40px">🛡️</div>
+<br/><sub>#04 · DEF</sub>
 </td>
 <td>
 
-**Project Two** — *FIRE TYPE*
+**Project Two** — *Rock-Solid Backend*
 Short description of what it does and the problem it solves.
 `Next.js` `Tailwind` `Prisma`
 [Live Demo](#) · [Repo](#)
@@ -91,12 +77,12 @@ Short description of what it does and the problem it solves.
 
 <tr>
 <td align="center" width="90">
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" width="70" alt="Squirtle"/>
-<br/><sub>#007</sub>
+<div style="font-size:40px">🎯</div>
+<br/><sub>#08 · MID</sub>
 </td>
 <td>
 
-**Project Three** — *WATER TYPE*
+**Project Three** — *Playmaker Product*
 Short description of what it does and the problem it solves.
 `Python` `FastAPI` `AWS`
 [Live Demo](#) · [Repo](#)
@@ -106,12 +92,12 @@ Short description of what it does and the problem it solves.
 
 <tr>
 <td align="center" width="90">
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" width="70" alt="Pikachu"/>
-<br/><sub>#025</sub>
+<div style="font-size:40px">⚡</div>
+<br/><sub>#09 · FWD</sub>
 </td>
 <td>
 
-**Project Four** — *ELECTRIC TYPE*
+**Project Four** — *Golden Boot Contender*
 Short description of what it does and the problem it solves.
 `TypeScript` `Figma` `Vercel`
 [Live Demo](#) · [Repo](#)
@@ -120,29 +106,29 @@ Short description of what it does and the problem it solves.
 </tr>
 </table>
 
-<sub>⚡ Replace the project names, descriptions, tech tags, and links above with your real projects — add or remove rows as needed. Swap the sprite IDs (e.g. `1.png`, `4.png`) for any other Pokémon via <a href="https://github.com/PokeAPI/sprites">PokeAPI/sprites</a>.</sub>
+<sub>⚽ Replace project names, descriptions, tech tags, and links with your real projects — add or remove rows as needed.</sub>
 
 <br/>
 <br/>
 
 <!-- ════════════════════ GITHUB STATS ══════════════════════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━━━━ BATTLE RECORD ━━━━━━━━━━━━━━━━━━━━━◈
-```
+\`\`\`
+⚽━━━━━━━━━━━━━━━━━━━━━ TOURNAMENT STATS ━━━━━━━━━━━━━━━━━━━━⚽
+\`\`\`
 
 <img height="170"
-     src="https://github-readme-stats.vercel.app/api?username=gokulan&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&icon_color=EE1515&text_color=CCCCFF&border_radius=10"
+     src="https://github-readme-stats.vercel.app/api?username=gokulan&show_icons=true&theme=algolia&hide_border=true&bg_color=07220F&title_color=FFD700&icon_color=00A651&text_color=E5FFE9&border_radius=10"
      alt="GitHub Stats"/>
 &nbsp;
 <img height="170"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=gokulan&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&text_color=CCCCFF&border_radius=10"
+     src="https://github-readme-stats.vercel.app/api/top-langs/?username=gokulan&layout=compact&theme=algolia&hide_border=true&bg_color=07220F&title_color=FFD700&text_color=E5FFE9&border_radius=10"
      alt="Top Languages"/>
 
 <br/>
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=gokulan&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=EE1515&ring=F5C518&fire=EE1515&currStreakLabel=F5C518&border_radius=10"
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=gokulan&theme=algolia&hide_border=true&background=07220F&stroke=FFD700&ring=00A651&fire=FFD700&currStreakLabel=FFD700&border_radius=10"
      alt="Streak Stats"
      width="600"/>
 
@@ -151,11 +137,11 @@ Short description of what it does and the problem it solves.
 
 <!-- ═══════════════════ CONTRIBUTION MAP ═══════════════════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━━ WILD ENCOUNTERS ━━━━━━━━━━━━━━━━━━━━━◈
-```
+\`\`\`
+⚽━━━━━━━━━━━━━━━━━━━━━━ PITCH HEATMAP ━━━━━━━━━━━━━━━━━━━━━⚽
+\`\`\`
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gokulan&bg_color=0D0D1A&color=F5C518&line=EE1515&point=F5C518&area=true&area_color=EE151520&hide_border=true&border_radius=10"
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gokulan&bg_color=07220F&color=FFD700&line=00A651&point=FFD700&area=true&area_color=00A65120&hide_border=true&border_radius=10"
      alt="Activity Graph"
      width="860"/>
 
@@ -164,9 +150,9 @@ Short description of what it does and the problem it solves.
 
 <!-- ══════════════════ PAC-MAN / SNAKE ═════════════════════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━ POKÉMON BATTLE FIELD ━━━━━━━━━━━━━━━━━◈
-```
+\`\`\`
+⚽━━━━━━━━━━━━━━━━━━━ MATCHDAY POSSESSION MAP ━━━━━━━━━━━━━━━⚽
+\`\`\`
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
@@ -183,11 +169,11 @@ Short description of what it does and the problem it solves.
 
 <!-- ══════════════════ TROPHIES ════════════════════════════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━━━━━━ GYM BADGES ━━━━━━━━━━━━━━━━━━━━━━◈
-```
+\`\`\`
+⚽━━━━━━━━━━━━━━━━━━━━━━ TROPHY CABINET ━━━━━━━━━━━━━━━━━━━━━⚽
+\`\`\`
 
-<img src="https://github-profile-trophy.vercel.app/?username=gokulan&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6"
+<img src="https://github-profile-trophy.vercel.app/?username=gokulan&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=6"
      alt="Trophies"
      width="860"/>
 
@@ -196,14 +182,14 @@ Short description of what it does and the problem it solves.
 
 <!-- ══════════════════ CONNECT ══════════════════════════════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━━━━━ TRAINER LINKS ━━━━━━━━━━━━━━━━━━━━◈
-```
+\`\`\`
+⚽━━━━━━━━━━━━━━━━━━━━━━ TRANSFER TALKS ━━━━━━━━━━━━━━━━━━━━━⚽
+\`\`\`
 
-[![GitHub](https://img.shields.io/badge/GitHub-gokulan-F5C518?style=for-the-badge&logo=github&logoColor=F5C518&labelColor=0D0D1A)](https://github.com/gokulan)
-[![Instagram](https://img.shields.io/badge/Instagram-@voltmedia.in-EE1515?style=for-the-badge&logo=instagram&logoColor=EE1515&labelColor=0D0D1A)](https://instagram.com/voltmedia.in)
-[![Email](https://img.shields.io/badge/Email-gokulan.rkivln-61DAFB?style=for-the-badge&logo=gmail&logoColor=61DAFB&labelColor=0D0D1A)](mailto:gokulan.rkivln@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokulan-A855F7?style=for-the-badge&logo=linkedin&logoColor=A855F7&labelColor=0D0D1A)](https://linkedin.com/in/gokulan)
+[![GitHub](https://img.shields.io/badge/GitHub-gokulan-FFD700?style=for-the-badge&logo=github&logoColor=FFD700&labelColor=07220F)](https://github.com/gokulan)
+[![Instagram](https://img.shields.io/badge/Instagram-@voltmedia.in-00A651?style=for-the-badge&logo=instagram&logoColor=00A651&labelColor=07220F)](https://instagram.com/voltmedia.in)
+[![Email](https://img.shields.io/badge/Email-gokulan.rkivln-61DAFB?style=for-the-badge&logo=gmail&logoColor=61DAFB&labelColor=07220F)](mailto:gokulan.rkivln@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokulan-A855F7?style=for-the-badge&logo=linkedin&logoColor=A855F7&labelColor=07220F)](https://linkedin.com/in/gokulan)
 
 <br/>
 <br/>
@@ -211,79 +197,11 @@ Short description of what it does and the problem it solves.
 <!-- ══════════════════ FOOTER ══════════════════════════════ -->
 
 <img src="footer.svg"
-     alt="Footer – Gotta Build Em All"
+     alt="Footer – Full Time Whistle"
      width="860"/>
 
 <br/>
 
-<!-- Real Pokémon lineup in the footer, "evolution" style -->
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" width="70" alt="Bulbasaur"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png" width="70" alt="Ivysaur"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png" width="70" alt="Venusaur"/>
-&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" width="70" alt="Charmander"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png" width="70" alt="Charmeleon"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png" width="70" alt="Charizard"/>
-&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" width="70" alt="Squirtle"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png" width="70" alt="Wartortle"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png" width="70" alt="Blastoise"/>
-
-<p><sub><i>Gotta build 'em all</i></sub></p>
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=gokulan&color=EE1515&style=for-the-badge&label=TRAINERS+VISITED&labelColor=0D0D1A)
+![Profile Views](https://komarev.com/ghpvc/?username=gokulan&color=FFD700&style=for-the-badge&label=FANS+IN+THE+STANDS&labelColor=07220F)
 
 </div>
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--  SETUP INSTRUCTIONS (read this block, then delete it)      -->
-<!--                                                            -->
-<!--  1. Create a repo named exactly:  gokulan/gokulan          -->
-<!--     (must match your GitHub username)                      -->
-<!--                                                            -->
-<!--  2. Upload these files to the ROOT of that repo:           -->
-<!--       README.md   ← this file                              -->
-<!--       banner.svg                                           -->
-<!--       moveset.svg                                          -->
-<!--       footer.svg                                           -->
-<!--     (pokedex.svg is no longer needed — the Pokédex/       -->
-<!--      Projects section is now static Markdown, and will    -->
-<!--      always render even if the SVG-generation service     -->
-<!--      that used to build it ever goes down.)                -->
-<!--                                                            -->
-<!--  3. Replace every "gokulan" in badge/stats URLs with       -->
-<!--     your actual GitHub username if different.              -->
-<!--                                                            -->
-<!--  4. Edit the Pokédex table rows with your real projects,   -->
-<!--     descriptions, tech stacks, and links. Pick any         -->
-<!--     Pokémon's official-artwork sprite by its National      -->
-<!--     Dex number from:                                       -->
-<!--     https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon/other/official-artwork -->
-<!--                                                            -->
-<!--  5. For the contribution SNAKE animation, add this         -->
-<!--     GitHub Action at:  .github/workflows/snake.yml         -->
-<!--                                                            -->
-<!--  name: Generate Snake                                      -->
-<!--  on:                                                       -->
-<!--    schedule:                                               -->
-<!--      - cron: "0 0 * * *"                                   -->
-<!--    workflow_dispatch:                                       -->
-<!--  jobs:                                                     -->
-<!--    generate:                                               -->
-<!--      runs-on: ubuntu-latest                                -->
-<!--      steps:                                                -->
-<!--        - uses: Platane/snk@v3                              -->
-<!--          with:                                             -->
-<!--            github_user_name: ${{ github.repository_owner }}-->
-<!--            outputs: |                                      -->
-<!--              dist/github-contribution-grid-snake.svg       -->
-<!--              dist/github-contribution-grid-snake-dark.svg?palette=github-dark -->
-<!--        - uses: crazy-max/ghaction-github-pages@v3          -->
-<!--          with:                                             -->
-<!--            target_branch: output                           -->
-<!--            build_dir: dist                                 -->
-<!--          env:                                              -->
-<!--            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}       -->
-<!-- ═══════════════════════════════════════════════════════════ -->
