@@ -1,0 +1,30 @@
+<svg viewBox="0 0 860 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="420" fill="#0A2A14"/>
+  <line x1="0" y1="210" x2="860" y2="210" stroke="#ffffff20" stroke-width="2"/>
+  <circle cx="430" cy="210" r="60" fill="none" stroke="#ffffff20" stroke-width="2"/>
+
+  <!-- formation 4-3-3 style layout, each dot = a skill -->
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <!-- GK -->
+    <circle cx="430" cy="380" r="26" fill="#FFD700"/>
+    <text x="430" y="386" font-size="14" fill="#0A2A14">GIT</text>
+
+    <!-- DEF line -->
+    <circle cx="150" cy="300" r="26" fill="#00A651"/><text x="150" y="306" font-size="13" fill="#fff">SQL</text>
+    <circle cx="330" cy="320" r="26" fill="#00A651"/><text x="330" y="326" font-size="12" fill="#fff">AWS</text>
+    <circle cx="530" cy="320" r="26" fill="#00A651"/><text x="530" y="326" font-size="11" fill="#fff">NODE</text>
+    <circle cx="710" cy="300" r="26" fill="#00A651"/><text x="710" y="306" font-size="12" fill="#fff">CI/CD</text>
+
+    <!-- MID line -->
+    <circle cx="230" cy="190" r="26" fill="#38BDF8"/><text x="230" y="196" font-size="12" fill="#0A2A14">PYTHON</text>
+    <circle cx="430" cy="160" r="26" fill="#38BDF8"/><text x="430" y="166" font-size="12" fill="#0A2A14">NEXT.JS</text>
+    <circle cx="630" cy="190" r="26" fill="#38BDF8"/><text x="630" y="196" font-size="12" fill="#0A2A14">FIGMA</text>
+
+    <!-- FWD line -->
+    <circle cx="280" cy="70" r="26" fill="#EE1515"/><text x="280" y="76" font-size="11" fill="#fff">TAILWIND</text>
+    <circle cx="430" cy="45" r="26" fill="#EE1515"/><text x="430" y="51" font-size="14" fill="#fff">REACT</text>
+    <circle cx="580" cy="70" r="26" fill="#EE1515"/><text x="580" y="76" font-size="11" fill="#fff">TYPESCRIPT</text>
+  </g>
+
+  <text x="430" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFD700">STARTING XI · 4-3-3 SKILL FORMATION</text>
+</svg>
