@@ -10,7 +10,7 @@
 <!-- map of the Mediterranean, a silhouette of a Greek trireme,   -->
 <!-- and the title: "GOKULAN · THE ODYSSEY OF CODE"               -->
 
-<img src="odyssey-banner.svg"
+<img src="banner.svg"
      alt="Gokulan Anbalagan – The Odyssey of Code"
      width="860"/>
 
