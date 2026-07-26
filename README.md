@@ -51,17 +51,17 @@
 ```
 
 <img height="170"
-     src="https://github-readme-stats.vercel.app/api?username=rkivln&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&icon_color=EE1515&text_color=CCCCFF&border_radius=10"
+     src="https://github-readme-stats.vercel.app/api?username=gokulan&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&icon_color=EE1515&text_color=CCCCFF&border_radius=10"
      alt="GitHub Stats"/>
 &nbsp;
 <img height="170"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=rkivln&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&text_color=CCCCFF&border_radius=10"
+     src="https://github-readme-stats.vercel.app/api/top-langs/?username=gokulan&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&text_color=CCCCFF&border_radius=10"
      alt="Top Languages"/>
 
 <br/>
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?username=rkivln&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=EE1515&ring=F5C518&fire=EE1515&currStreakLabel=F5C518&border_radius=10"
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=gokulan&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=EE1515&ring=F5C518&fire=EE1515&currStreakLabel=F5C518&border_radius=10"
      alt="Streak Stats"
      width="600"/>
 
@@ -74,7 +74,7 @@
 ◈━━━━━━━━━━━━━━━━━━━━ WILD ENCOUNTERS ━━━━━━━━━━━━━━━━━━━━━◈
 ```
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rkivln&bg_color=0D0D1A&color=F5C518&line=EE1515&point=F5C518&area=true&area_color=EE151520&hide_border=true&border_radius=10"
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gokulan&bg_color=0D0D1A&color=F5C518&line=EE1515&point=F5C518&area=true&area_color=EE151520&hide_border=true&border_radius=10"
      alt="Activity Graph"
      width="860"/>
 
@@ -89,11 +89,11 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake-dark.svg"/>
+          srcset="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)"
-          srcset="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake.svg"/>
+          srcset="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake.svg"/>
   <img alt="Contribution Snake"
-       src="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake-dark.svg"
+       src="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake-dark.svg"
        width="860"/>
 </picture>
 
@@ -106,7 +106,7 @@
 ◈━━━━━━━━━━━━━━━━━━━━━━━━ GYM BADGES ━━━━━━━━━━━━━━━━━━━━━━◈
 ```
 
-<img src="https://github-profile-trophy.vercel.app/?username=rkivln&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6"
+<img src="https://github-profile-trophy.vercel.app/?username=gokulan&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6"
      alt="Trophies"
      width="860"/>
 
@@ -119,10 +119,10 @@
 ◈━━━━━━━━━━━━━━━━━━━━━━━ TRAINER LINKS ━━━━━━━━━━━━━━━━━━━━◈
 ```
 
-[![GitHub](https://img.shields.io/badge/GitHub-gokulan-F5C518?style=for-the-badge&logo=github&logoColor=F5C518&labelColor=0D0D1A)](https://github.com/rkivln)
-[![Instagram](https://img.shields.io/badge/Instagram-@voltmedia.in-EE1515?style=for-the-badge&logo=instagram&logoColor=EE1515&labelColor=0D0D1A)](https://instagram.com/rkivln)
+[![GitHub](https://img.shields.io/badge/GitHub-gokulan-F5C518?style=for-the-badge&logo=github&logoColor=F5C518&labelColor=0D0D1A)](https://github.com/gokulan)
+[![Instagram](https://img.shields.io/badge/Instagram-@voltmedia.in-EE1515?style=for-the-badge&logo=instagram&logoColor=EE1515&labelColor=0D0D1A)](https://instagram.com/voltmedia.in)
 [![Email](https://img.shields.io/badge/Email-gokulan.rkivln-61DAFB?style=for-the-badge&logo=gmail&logoColor=61DAFB&labelColor=0D0D1A)](mailto:gokulan.rkivln@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokulan-A855F7?style=for-the-badge&logo=linkedin&logoColor=A855F7&labelColor=0D0D1A)](https://linkedin.com/in/gokulan-a)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokulan-A855F7?style=for-the-badge&logo=linkedin&logoColor=A855F7&labelColor=0D0D1A)](https://linkedin.com/in/gokulan)
 
 <br/>
 <br/>
