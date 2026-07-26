@@ -81,6 +81,24 @@ I am a developer who enjoys building software that feels clear, fast, and purpos
 
 <div align="center">
 
+## Signature
+
+<pre>
+  ______   ______   __  __  __  __  __       ______   __   __
+ /_____/\ /_____/\ /_/\/_/\/_/\/_/\/_/\     /_____/\ /_/\ /_/\
+ \::::_\/_\:::_ \ \\:\ \:\ \\:\ \:\ \\:\    \:::_ \ \\:\ \\ \ \
+  \:\/___/\\:\ \ \ \\:\ \:\ \\:\ \:\ \\:\    \:\ \ \ \\:\ \\ \ \
+   \_::._\:\\:\ \ \ \\:\ \:\ \\:\ \:\ \\:\____\:\ \ \ \\:\_/.:\ \
+     /____\:\\:\_\ \ \\:\_\:\ \\:\_\:\ \\:\/___/\\:\_\ \ \\ ..::/ /
+     \_____\/ \_____\/ \_____\/ \_____\/ \_____\/ \_____\/ \___/_(/
+</pre>
+
+</div>
+
+<br />
+
+<div align="center">
+
 ## Contribution Flow
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-GITHUB-USERNAME&bg_color=0F172A&color=E5E7EB&line=14B8A6&point=F97316&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
@@ -94,3 +112,115 @@ I am a developer who enjoys building software that feels clear, fast, and purpos
 ```txt
 Design systems        [#################---] 85%
 Full-stack apps       [################----] 80%
+Automation            [###############-----] 75%
+AI workflows          [##############------] 70%
+Performance tuning    [#############-------] 65%
+```
+
+<br />
+
+<div align="center">
+
+## Connect
+
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-2563EB?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F172A" alt="LinkedIn" />
+</a>
+<a href="https://x.com/YOUR-X-HANDLE">
+  <img src="https://img.shields.io/badge/X-Follow-111827?style=for-the-badge&logo=x&logoColor=white&labelColor=0F172A" alt="X profile" />
+</a>
+<a href="https://your-portfolio.example.com">
+  <img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0F172A" alt="Portfolio" />
+</a>
+
+<br />
+<br />
+
+<table align="center">
+  <tr>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
+  </tr>
+</table>
+
+<br />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:F97316,35:14B8A6,70:2563EB,100:0F172A&animation=twinkling" alt="Animated footer wave" width="100%" />
+
+</div>
