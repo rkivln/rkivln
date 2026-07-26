@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes glimmer {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    .star { fill: #C9A96E; animation: glimmer 2s infinite ease-in-out; }
+    .tower-line { stroke: #C9A96E; stroke-width: 1.5; fill: none; }
+    .ground { stroke: #C9A96E; stroke-opacity: 0.3; }
+  </style>
+  <!-- Background Stars -->
+  <circle class="star" cx="200" cy="50" r="1" style="animation-delay: 0.2s"/>
+  <circle class="star" cx="600" cy="80" r="1" style="animation-delay: 0.8s"/>
+  <circle class="star" cx="400" cy="30" r="1.5" style="animation-delay: 1.2s"/>
+  
+  <!-- Stylized Eiffel Tower -->
+  <g transform="translate(365, 50) scale(0.7)">
+    <path class="tower-line" d="M50,0 L55,250 M50,0 L45,250" />
+    <path class="tower-line" d="M10,280 L40,0 L90,280" />
+    <path class="tower-line" d="M25,180 L75,180" />
+    <path class="tower-line" d="M35,100 L65,100" />
+    <path class="tower-line" d="M0,280 Q50,220 100,280" />
+    <!-- Lights -->
+    <circle fill="#FFF" cx="50" cy="50" r="1.5">
+        <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle fill="#FFF" cx="45" cy="150" r="1.5">
+        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <line class="ground" x1="100" y1="250" x2="700" y2="250" />
+</svg>
