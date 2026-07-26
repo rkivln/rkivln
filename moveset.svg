@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 180" width="860" height="180">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#0F0F1A"/>
+    </linearGradient>
+
+    <!-- Bar gradients per type colour -->
+    <linearGradient id="barReact"    x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#61DAFB"/><stop offset="100%" stop-color="#21B8D6"/></linearGradient>
+    <linearGradient id="barNext"     x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#AAAAAA"/></linearGradient>
+    <linearGradient id="barNode"     x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#68A063"/><stop offset="100%" stop-color="#3D7A36"/></linearGradient>
+    <linearGradient id="barTailwind" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#0EA5E9"/></linearGradient>
+    <linearGradient id="barPython"   x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FFD43B"/><stop offset="100%" stop-color="#F5A623"/></linearGradient>
+    <linearGradient id="barFigma"    x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F24E1E"/><stop offset="100%" stop-color="#C03015"/></linearGradient>
+    <linearGradient id="barAWS"      x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FF9900"/><stop offset="100%" stop-color="#CC7700"/></linearGradient>
+    <linearGradient id="barUIUX"     x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#A855F7"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient>
+
+    <style>
+      .bar-react    { animation: growBar 2s ease-out 0.1s both; }
+      .bar-next     { animation: growBar 2s ease-out 0.2s both; }
+      .bar-node     { animation: growBar 2s ease-out 0.3s both; }
+      .bar-tailwind { animation: growBar 2s ease-out 0.4s both; }
+      .bar-python   { animation: growBar 2s ease-out 0.5s both; }
+      .bar-figma    { animation: growBar 2s ease-out 0.6s both; }
+      .bar-aws      { animation: growBar 2s ease-out 0.7s both; }
+      .bar-uiux     { animation: growBar 2s ease-out 0.8s both; }
+      .badge        { animation: badgePop 0.5s ease-out both; }
+      .b1 { animation-delay:0.05s; }
+      .b2 { animation-delay:0.10s; }
+      .b3 { animation-delay:0.15s; }
+      .b4 { animation-delay:0.20s; }
+      .b5 { animation-delay:0.25s; }
+      .b6 { animation-delay:0.30s; }
+      .b7 { animation-delay:0.35s; }
+      .b8 { animation-delay:0.40s; }
+      .border-pulse { animation: borderPulse 3s ease-in-out infinite; }
+
+      @keyframes growBar {
+        from { transform: scaleX(0); }
+        to   { transform: scaleX(1); }
+      }
+      @keyframes badgePop {
+        0%   { opacity:0; transform:scale(0.5); }
+        80%  { transform:scale(1.05); }
+        100% { opacity:1; transform:scale(1); }
+      }
+      @keyframes borderPulse {
+        0%,100% { stroke:#EE1515; stroke-opacity:0.6; }
+        50%     { stroke:#FF4444; stroke-opacity:1;   }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="180" fill="url(#bg2)" rx="14"/>
+  <rect width="858" height="178" x="1" y="1" fill="none" stroke="#EE1515" stroke-width="1.5" rx="13" class="border-pulse"/>
+
+  <!-- Section title -->
+  <text x="430" y="28" font-family="'Courier New',monospace" font-size="13" font-weight="900"
+        fill="#F5C518" text-anchor="middle" letter-spacing="5">⚔ MOVE SET  /  TECH ABILITIES ⚔</text>
+  <line x1="30" y1="36" x2="830" y2="36" stroke="#F5C518" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- ── Left column ── -->
+  <!-- React -->
+  <g class="badge b1">
+    <rect x="20" y="50" width="70" height="20" rx="10" fill="#61DAFB" opacity="0.2"/>
+    <rect x="20" y="50" width="70" height="20" rx="10" fill="none" stroke="#61DAFB" stroke-width="1"/>
+    <text x="55" y="64" font-family="'Courier New',monospace" font-size="10" font-weight="700" fill="#61DAFB" text-anchor="middle">REACT</text>
+  </g>
+  <rect x="100" y="54" width="290" height="12" rx="6" fill="#1E1E3F"/>
+  <g style="transform-origin:100px 60px">
+    <rect x="100" y="54" width="261" height="12" rx="6" fill="url(#barReact)" class="bar-react"/>
+  </g>
+  <text x="402" y="64" font-family="'Courier New',monospace" font-size="10" fill="#61DAFB" text-anchor="end">90</text>
+
+  <!-- Next.js -->
+  <g class="badge b2">
+    <rect x="20" y="80" width="70" height="20" rx="10" fill="#FFFFFF" opacity="0.1"/>
+    <rect x="20" y="80" width="70" height="20" rx="10" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    <text x="55" y="94" font-family="'Courier New',monospace" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">NEXT.JS</text>
+  </g>
+  <rect x="100" y="84" width="290" height="12" rx="6" fill="#1E1E3F"/>
+  <g style="transform-origin:100px 90px">
+    <rect x="100" y="84" width="245" height="12" rx="6" fill="url(#barNext)" class="bar-next"/>
+  </g>
+  <text x="402" y="94" font-family="'Courier New',monospace" font-size="10" fill="#FFFFFF" text-anchor="end">85</text>
+
+  <!-- Node.js -->
+  <g class="badge b3">
+    <rect x="20" y="110" width="70" height="20" rx="10" fill="#68A063" opacity="0.2"/>
+    <rect x="20" y="110" width="70" height="20" rx="10" fill="none" stroke="#68A063" stroke-width="1"/>
+    <text x="55" y="124" font-family="'Courier New',monospace" font-size="10" font-weight="700" fill="#68A063" text-anchor="middle">NODE</text>
+  </g>
+  <rect x="100" y="114" width="290" height="12" rx="6" fill="#1E1E3F"/>
+  <g style="transform-origin:100px 120px">
+    <rect x="100" y="114" width="232" height="12" rx="6" fill="url(#barNode)" class="bar-node"/>
+  </g>
+  <text x="402" y="124" font-family="'Courier New',monospace" font-size="10" fill="#68A063" text-anchor="end">80</text>
+
+  <!-- Tailwind -->
+  <g class="badge b4">
+    <rect x="20" y="140" width="70" height="20" rx="10" fill="#38BDF8" opacity="0.2"/>
+    <rect x="20" y="140" width="70" height="20" rx="10" fill="none" stroke="#38BDF8" stroke-width="1"/>
+    <text x="55" y="154" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#38BDF8" text-anchor="middle">TAILWIND</text>
+  </g>
+  <rect x="100" y="144" width="290" height="12" rx="6" fill="#1E1E3F"/>
+  <g style="transform-origin:100px 150px">
+    <rect x="100" y="144" width="275" height="12" rx="6" fill="url(#barTailwind)" class="bar-tailwind"/>
+  </g>
+  <text x="402" y="154" font-family="'Courier New',monospace" font-size="10" fill="#38BDF8" text-anchor="end">95</text>
+
+  <!-- ── Right column ── -->
+  <!-- Python -->
+  <g class="badge b5">
+    <rect x="440" y="50" width="70" height="20" rx="10" fill="#FFD43B" opacity="0.2"/>
+    <rect x="440" y="50" width="70" height="20" rx="10" fill="none" stroke="#FFD43B" stroke-width="1"/>
+    <text x="475" y="64" font-family="'Courier New',monospace" font-size="10" font-weight="700" fill="#FFD43B" text-anchor="middle">PYTHON</text>
+  </g>
+  <rect x="520" y="54" width="290" height="12" rx="6" fill="#1E1E3F"/>
+  <g style="transform-origin:520px 60px">
+    <rect x="520" y="54" width="220" height="12" rx="6" fill="url(#barPython)" class="bar-python"/>
+  </g>
+  <text x="822" y="64" font-family="'Courier New',monospace" font-size="10" fill="#FFD43B" text-anchor="end">76</text>
+
+  <!-- Figma -->
+  <g class="badge b6">
+    <rect x="440" y="80" width="70" height="20" rx="10" fill="#F24E1E" opacity="0.2"/>
+    <rect x="440" y="80" width="70" height="20" rx="10" fill="none" stroke="#F24E1E" stroke-width="1"/>
+    <text x="475" y="94" font-family="'Courier New',monospace" font-size="10" font-weight="700" fill="#F24E1E" text-anchor="middle">FIGMA</text>
+  </g>
+  <rect x="520" y="84" width="290" height="12" rx="6" fill="#1E1E3F"/>
+  <g style="transform-origin:520px 90px">
+    <rect x="520" y="84" width="261" height="12" rx="6" fill="url(#barFigma)" class="bar-figma"/>
+  </g>
+  <text x="822" y="94" font-family="'Courier New',monospace" font-size="10" fill="#F24E1E" text-anchor="end">90</text>
+
+  <!-- AWS -->
+  <g class="badge b7">
+    <rect x="440" y="110" width="70" height="20" rx="10" fill="#FF9900" opacity="0.2"/>
+    <rect x="440" y="110" width="70" height="20" rx="10" fill="none" stroke="#FF9900" stroke-width="1"/>
+    <text x="475" y="124" font-family="'Courier New',monospace" font-size="10" font-weight="700" fill="#FF9900" text-anchor="middle">AWS</text>
+  </g>
+  <rect x="520" y="114" width="290" height="12" rx="6" fill="#1E1E3F"/>
+  <g style="transform-origin:520px 120px">
+    <rect x="520" y="114" width="203" height="12" rx="6" fill="url(#barAWS)" class="bar-aws"/>
+  </g>
+  <text x="822" y="124" font-family="'Courier New',monospace" font-size="10" fill="#FF9900" text-anchor="end">70</text>
+
+  <!-- UI/UX -->
+  <g class="badge b8">
+    <rect x="440" y="140" width="70" height="20" rx="10" fill="#A855F7" opacity="0.2"/>
+    <rect x="440" y="140" width="70" height="20" rx="10" fill="none" stroke="#A855F7" stroke-width="1"/>
+    <text x="475" y="154" font-family="'Courier New',monospace" font-size="10" font-weight="700" fill="#A855F7" text-anchor="middle">UI / UX</text>
+  </g>
+  <rect x="520" y="144" width="290" height="12" rx="6" fill="#1E1E3F"/>
+  <g style="transform-origin:520px 150px">
+    <rect x="520" y="144" width="275" height="12" rx="6" fill="url(#barUIUX)" class="bar-uiux"/>
+  </g>
+  <text x="822" y="154" font-family="'Courier New',monospace" font-size="10" fill="#A855F7" text-anchor="end">95</text>
+
+  <!-- Divider between columns -->
+  <line x1="430" y1="44" x2="430" y2="168" stroke="#F5C518" stroke-width="0.5" opacity="0.2"/>
+</svg>
