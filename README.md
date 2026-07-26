@@ -51,11 +51,11 @@
 ```
 
 <img height="170"
-     src="https://github-readme-stats.vercel.app/api?username=rkivln&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&icon_color=EE1515&text_color=CCCCFF&border_radius=10"
+     src="https://github-readme-stats.vercel.app/api?user=rkivln&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&icon_color=EE1515&text_color=CCCCFF&border_radius=10"
      alt="GitHub Stats"/>
 &nbsp;
 <img height="170"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=rkivln&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&text_color=CCCCFF&border_radius=10"
+     src="https://github-readme-stats.vercel.app/api/top-langs/?user=rkivln&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&text_color=CCCCFF&border_radius=10"
      alt="Top Languages"/>
 
 <br/>
