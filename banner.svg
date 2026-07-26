@@ -2,57 +2,41 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        .container {
-          background: linear-gradient(135deg, #020b16 0%, #051937 50%, #000 100%);
-          height: 200px;
+        .card {
+          background: #0C1020;
+          height: 190px;
+          border: 1px solid #C9A96E;
+          font-family: 'Segoe UI', sans-serif;
           display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          font-family: 'Segoe UI', serif;
-          border: 2px solid #c5a059;
+          padding: 20px;
+          color: #C9A96E;
           position: relative;
-          overflow: hidden;
         }
-        .greek-pattern {
+        .stamp {
           position: absolute;
-          top: 10px;
-          bottom: 10px;
-          left: 10px;
-          right: 10px;
-          border: 1px solid rgba(197, 160, 89, 0.3);
-          pointer-events: none;
-        }
-        h1 {
-          color: #c5a059;
-          font-size: 45px;
-          letter-spacing: 8px;
-          text-transform: uppercase;
-          margin: 0;
-          text-shadow: 0 0 20px rgba(197, 160, 89, 0.5);
-          font-weight: 900;
-        }
-        .subtitle {
-          color: #8892b0;
-          font-size: 14px;
-          letter-spacing: 5px;
-          margin-top: 10px;
-          text-transform: uppercase;
-        }
-        .glow {
-          position: absolute;
-          width: 150px;
-          height: 150px;
-          background: radial-gradient(circle, rgba(197, 160, 89, 0.2) 0%, transparent 70%);
+          right: 40px;
+          top: 50%;
+          transform: translateY(-50%) rotate(15deg);
+          border: 3px double #C9A96E;
+          padding: 10px;
           border-radius: 50%;
-          top: 25px;
+          font-weight: bold;
+          opacity: 0.6;
         }
+        h1 { margin: 0; font-size: 32px; letter-spacing: 5px; text-transform: uppercase; }
+        p { margin: 5px 0; font-size: 14px; opacity: 0.8; letter-spacing: 2px; }
+        .line { border-top: 1px dashed #C9A96E; margin: 15px 0; width: 60%; }
       </style>
-      <div class="container">
-        <div class="greek-pattern"></div>
-        <div class="glow"></div>
-        <h1>GOKULAN ANBALAGAN</h1>
-        <div class="subtitle">THE ODYSSEY • MMXXVI</div>
+      <div class="card">
+        <div style="flex-grow: 1;">
+          <p>BOARDING PASS / PASSENGER</p>
+          <h1>GOKULAN ANBALAGAN</h1>
+          <div class="line"></div>
+          <p>DESTINATION: FUTURE_TECH.ISO</p>
+          <p>CLASS: FIRST CLASS ARCHITECT</p>
+          <p>GATE: 001 | SEAT: 1A</p>
+        </div>
+        <div class="stamp">VERIFIED<br/>TRAVELLER</div>
       </div>
     </div>
   </foreignObject>
