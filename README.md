@@ -1,72 +1,96 @@
-# ✈️ Around the World: A Developer's Travel Log 🗺️
-
 <div align="center">
-  <p><i>"To code is to explore uncharted syntax; to travel is to explore uncharted lands."</i></p>
 
-  <br />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F172A,35:2563EB,70:14B8A6,100:F97316&text=Gokulan&fontColor=FFFFFF&fontSize=64&fontAlignY=38&desc=Developer%20%7C%20Builder%20%7C%20Problem%20Solver&descAlignY=58&animation=fadeIn" alt="Animated profile header" width="100%" />
 
-  <!-- Central Animation Piece -->
-  <img src="wonders_animation.svg" width="100%" alt="7 Wonders of the World Animated Tour" />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=25&duration=2600&pause=700&color=14B8A6&center=true&vCenter=true&width=900&lines=I+build+clean%2C+useful%2C+human-centered+software;Turning+ideas+into+polished+digital+experiences;Always+learning%2C+shipping%2C+and+refining" alt="Typing SVG" />
+</a>
 
-  <br /><br />
+<p>
+  <a href="https://github.com/YOUR-GITHUB-USERNAME?tab=followers">
+    <img src="https://img.shields.io/github/followers/YOUR-GITHUB-USERNAME?style=for-the-badge&logo=github&label=Followers&color=2563EB&labelColor=0F172A" alt="GitHub followers" />
+  </a>
+  <a href="https://github.com/YOUR-GITHUB-USERNAME">
+    <img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-USERNAME&style=for-the-badge&color=14B8A6&label=Profile+Views" alt="Profile views" />
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email-Contact-F97316?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email contact" />
+  </a>
+</p>
 
-  <!-- Boarding Pass Stats Widget -->
-  <img src="boarding_pass.svg" width="100%" alt="Developer Boarding Pass Stats" />
 </div>
 
----
+<br />
 
-### 🌍 Greeting, Fellow Explorer!
+<table>
+  <tr>
+    <td width="55%" valign="top">
 
-I am **GOKULAN**, a Full-Stack Software Explorer. Just as ancient builders engineered architectural masterpieces to withstand centuries, I build clean, robust, and highly-scalable software solutions. 
+## About Me
 
-I navigate codebases like winding mountain trails, scale microservices like Andean peaks, and optimize algorithms with mathematical symmetry. Below, you will find my travel journal documenting the **7 Wonders of the World** and how their structural principles map to my core engineering philosophies.
+I am a developer who enjoys building software that feels clear, fast, and purposeful. I like working across the stack, shaping ideas into interfaces, systems, and tools that people can actually use.
 
----
+- Currently building: polished web apps, automation tools, and developer workflows
+- Learning deeper: system design, AI-assisted products, and performance engineering
+- Ask me about: full-stack development, clean UI, problem solving, and shipping projects
+- Working style: thoughtful architecture, crisp execution, steady iteration
 
-### 🗺️ The 7 Wonders of Code (Travel Log)
+    </td>
+    <td width="45%" valign="top">
 
-| Wonder | Destination | Status | Engineering Pillar | Travel Log / Philosophical Insight |
-| :--- | :--- | :---: | :--- | :--- |
-| **Taj Mahal** | 🇮🇳 Agra, India | Visited ✈️ | **Architectural Symmetry** | *Every line of code and design component alignment must be as balanced and polished as white carved marble. Perfect symmetry in front-end design and clean architectures.* |
-| **Colosseum** | 🇮🇹 Rome, Italy | Visited ✈️ | **Concurrency & Scale** | *Designed to seat 80,000 spectators with rapid evacuation paths. Software systems must be engineered for massive concurrent traffic and load balancing.* |
-| **Great Wall** | 🇨🇳 Beijing, China | Bucket List 🗺️ | **Modular Security & CDNs** | *Spanning over 21,196 km of watchtowers. Building secure, multi-layered defensive firewalls, CORS policies, and global CDN edge distributions.* |
-| **Machu Picchu** | 🇵🇪 Cusco, Peru | Bucket List 🗺️ | **Highly Decoupled Modules** | *Dry-stone structures constructed without any mortar, fitting together perfectly. Writing clean, highly-cohesive, independent code modules without tight coupling.* |
-| **Christ the Redeemer** | 🇧🇷 Rio, Brazil | Bucket List 🗺️ | **Open APIs & Global Reach** | *Standing tall on Corcovado Mountain with open arms. Embracing open-source ecosystems, clean public interfaces, and inviting developer communities.* |
-| **Petra** | 🇯🇴 Ma'an, Jordan | Bucket List 🗺️ | **Bare-Metal Optimization** | *A majestic treasury carved directly out of sandstone cliffs. Writing low-level, high-efficiency algorithms that optimize execution time and minimize resource allocation.* |
-| **Chichen Itza** | 🇲🇽 Yucatan, Mexico | Bucket List 🗺️ | **Precision Schedulers** | *A step pyramid aligned precisely with the equinoxes to cast serpent shadows. Aligning cron jobs, event loops, and task queues to exact millisecond intervals.* |
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&hide_border=true&bg_color=0F172A&title_color=14B8A6&text_color=E5E7EB&icon_color=F97316&rank_icon=github" alt="GitHub stats" width="100%" />
 
----
+<br />
 
-### 🛂 Tech Baggage Passport Stamps
+<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR-GITHUB-USERNAME&hide_border=true&background=0F172A&ring=14B8A6&fire=F97316&currStreakLabel=14B8A6&sideLabels=E5E7EB&dates=94A3B8&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="GitHub streak" width="100%" />
 
-Below is the list of cargo loaded for my development journeys. All items cleared through customs and ready for production deployment:
+    </td>
+  </tr>
+</table>
 
-```
-┌───────────────────────────────────────────────────────────────────────────┐
-│  PASSPORT STAMPS: DEPLOYED TECH BAGGAGE                                  │
-├───────────────────┬───────────────────┬───────────────────┬───────────────┤
-│ 🛂 DEPARTURES     │ 🛃 CUSTOMS CONTROL│ 🛂 ARRIVALS       │ ✈️ FLIGHT CREW │
-│ (Frontend Cargo)  │ (Backend Systems) │ (Data & Cloud)    │ (Workflows)   │
-├───────────────────┼───────────────────┼───────────────────┼───────────────┤
-│ • HTML5 / CSS3    │ • Node.js         │ • PostgreSQL      │ • Git / GitHub│
-│ • JavaScript (ES6)│ • Express.js      │ • MongoDB         │ • CI/CD Pipelines
-│ • TypeScript      │ • Python          │ • Redis Caching   │ • Docker      │
-│ • React / Next.js │ • RESTful APIs    │ • AWS Cloud       │ • Agile / Scrum│
-└───────────────────┴───────────────────┴───────────────────┴───────────────┘
-```
-
----
-
-### 💼 Luggage Tags (Get in Touch)
-
-Let's exchange travel stories or plan our next codebase expedition together:
-* ✉️ **Inflight Email:** [email@example.com](mailto:email@example.com)
-* 💼 **Professional Ticket:** [LinkedIn Profile](https://linkedin.com)
-* 🐦 **Travel Twitter:** [@YourHandle](https://twitter.com)
+<br />
 
 <div align="center">
-  <br />
-  <p><i>Have a safe flight and happy coding! ✈️</i></p>
-  <sub>Designed with ❤️ and animated SVGs.</sub>
+
+## Tech I Like Working With
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,python,java,cpp,mongodb,mysql,postgres,git,github,vscode,figma&theme=dark&perline=9" alt="Technology icons" />
+
 </div>
+
+<br />
+
+## Featured Work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/YOUR-GITHUB-USERNAME/PROJECT-ONE">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR-GITHUB-USERNAME&repo=PROJECT-ONE&hide_border=true&bg_color=0F172A&title_color=14B8A6&text_color=E5E7EB&icon_color=F97316" alt="Pinned project one" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/YOUR-GITHUB-USERNAME/PROJECT-TWO">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR-GITHUB-USERNAME&repo=PROJECT-TWO&hide_border=true&bg_color=0F172A&title_color=14B8A6&text_color=E5E7EB&icon_color=F97316" alt="Pinned project two" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<div align="center">
+
+## Contribution Flow
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-GITHUB-USERNAME&bg_color=0F172A&color=E5E7EB&line=14B8A6&point=F97316&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
+
+</div>
+
+<br />
+
+## Current Focus
+
+```txt
+Design systems        [#################---] 85%
+Full-stack apps       [################----] 80%
