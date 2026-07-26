@@ -89,11 +89,11 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/rkivln/gokulan/output/github-contribution-grid-snake-dark.svg"/>
+          srcset="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)"
-          srcset="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake.svg"/>
+          srcset="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake.svg"/>
   <img alt="Contribution Snake"
-       src="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake-dark.svg"
+       src="https://raw.githubusercontent.com/rkivln/rkivln/output/github-contribution-grid-snake-dark.svg"
        width="860"/>
 </picture>
 
@@ -106,7 +106,7 @@
 ◈━━━━━━━━━━━━━━━━━━━━━━━━ GYM BADGES ━━━━━━━━━━━━━━━━━━━━━━◈
 ```
 
-<img src="https://github-profile-trophy.vercel.app/?username=gokulan&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6"
+<img src="https://github-profile-trophy.vercel.app/?username=rkivln&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6"
      alt="Trophies"
      width="860"/>
 
@@ -119,10 +119,10 @@
 ◈━━━━━━━━━━━━━━━━━━━━━━━ TRAINER LINKS ━━━━━━━━━━━━━━━━━━━━◈
 ```
 
-[![GitHub](https://img.shields.io/badge/GitHub-gokulan-F5C518?style=for-the-badge&logo=github&logoColor=F5C518&labelColor=0D0D1A)](https://github.com/gokulan)
-[![Instagram](https://img.shields.io/badge/Instagram-@voltmedia.in-EE1515?style=for-the-badge&logo=instagram&logoColor=EE1515&labelColor=0D0D1A)](https://instagram.com/voltmedia.in)
+[![GitHub](https://img.shields.io/badge/GitHub-gokulan-F5C518?style=for-the-badge&logo=github&logoColor=F5C518&labelColor=0D0D1A)](https://github.com/rkivln)
+[![Instagram](https://img.shields.io/badge/Instagram-@voltmedia.in-EE1515?style=for-the-badge&logo=instagram&logoColor=EE1515&labelColor=0D0D1A)](https://instagram.com/rkivln)
 [![Email](https://img.shields.io/badge/Email-gokulan.rkivln-61DAFB?style=for-the-badge&logo=gmail&logoColor=61DAFB&labelColor=0D0D1A)](mailto:gokulan.rkivln@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokulan-A855F7?style=for-the-badge&logo=linkedin&logoColor=A855F7&labelColor=0D0D1A)](https://linkedin.com/in/gokulan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokulan-A855F7?style=for-the-badge&logo=linkedin&logoColor=A855F7&labelColor=0D0D1A)](https://linkedin.com/in/gokulan-a)
 
 <br/>
 <br/>
@@ -135,7 +135,7 @@
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=gokulan&color=EE1515&style=for-the-badge&label=TRAINERS+VISITED&labelColor=0D0D1A)
+![Profile Views](https://komarev.com/ghpvc/?username=rkivln&color=EE1515&style=for-the-badge&label=TRAINERS+VISITED&labelColor=0D0D1A)
 
 </div>
 
