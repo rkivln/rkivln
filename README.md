@@ -1,226 +1,182 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F172A,35:2563EB,70:14B8A6,100:F97316&text=Gokulan&fontColor=FFFFFF&fontSize=64&fontAlignY=38&desc=Developer%20%7C%20Builder%20%7C%20Problem%20Solver&descAlignY=58&animation=fadeIn" alt="Animated profile header" width="100%" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=25&duration=2600&pause=700&color=14B8A6&center=true&vCenter=true&width=900&lines=I+build+clean%2C+useful%2C+human-centered+software;Turning+ideas+into+polished+digital+experiences;Always+learning%2C+shipping%2C+and+refining" alt="Typing SVG" />
-</a>
-
-<p>
-  <a href="https://github.com/YOUR-GITHUB-USERNAME?tab=followers">
-    <img src="https://img.shields.io/github/followers/YOUR-GITHUB-USERNAME?style=for-the-badge&logo=github&label=Followers&color=2563EB&labelColor=0F172A" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/YOUR-GITHUB-USERNAME">
-    <img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-USERNAME&style=for-the-badge&color=14B8A6&label=Profile+Views" alt="Profile views" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact-F97316?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email contact" />
-  </a>
-</p>
-
-</div>
-
-<br />
-
-<table>
-  <tr>
-    <td width="55%" valign="top">
-
-## About Me
-
-I am a developer who enjoys building software that feels clear, fast, and purposeful. I like working across the stack, shaping ideas into interfaces, systems, and tools that people can actually use.
-
-- Currently building: polished web apps, automation tools, and developer workflows
-- Learning deeper: system design, AI-assisted products, and performance engineering
-- Ask me about: full-stack development, clean UI, problem solving, and shipping projects
-- Working style: thoughtful architecture, crisp execution, steady iteration
-
-    </td>
-    <td width="45%" valign="top">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&hide_border=true&bg_color=0F172A&title_color=14B8A6&text_color=E5E7EB&icon_color=F97316&rank_icon=github" alt="GitHub stats" width="100%" />
-
-<br />
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR-GITHUB-USERNAME&hide_border=true&background=0F172A&ring=14B8A6&fire=F97316&currStreakLabel=14B8A6&sideLabels=E5E7EB&dates=94A3B8&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="GitHub streak" width="100%" />
-
-    </td>
-  </tr>
-</table>
-
-<br />
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--        GOKULAN ANBALAGAN  ·  POKÉMON EDITION README        -->
+<!--                   github.com/gokulan                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## Tech I Like Working With
+<!-- ══════════════════════ HERO BANNER ══════════════════════ -->
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,python,java,cpp,mongodb,mysql,postgres,git,github,vscode,figma&theme=dark&perline=9" alt="Technology icons" />
+<img src="https://raw.githubusercontent.com/gokulan/gokulan/main/banner.svg"
+     alt="Gokulan Anbalagan – Pokémon Trainer Card"
+     width="860"/>
 
-</div>
+<br/>
+<br/>
 
-<br />
+<!-- ═══════════════════ QUICK TYPE BADGES ══════════════════ -->
 
-## Featured Work
+![React](https://img.shields.io/badge/React-WATER%20TYPE-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0D1B2E)
+![Next.js](https://img.shields.io/badge/Next.js-NORMAL%20TYPE-FFFFFF?style=for-the-badge&logo=next.js&logoColor=FFFFFF&labelColor=0D0D0D)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-ICE%20TYPE-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8&labelColor=0D1B2E)
+![Python](https://img.shields.io/badge/Python-ELECTRIC%20TYPE-FFD43B?style=for-the-badge&logo=python&logoColor=FFD43B&labelColor=1A1A0D)
+![Figma](https://img.shields.io/badge/Figma-FIRE%20TYPE-F24E1E?style=for-the-badge&logo=figma&logoColor=F24E1E&labelColor=1A0D0D)
+![AWS](https://img.shields.io/badge/AWS-FLYING%20TYPE-FF9900?style=for-the-badge&logo=amazonaws&logoColor=FF9900&labelColor=1A1000)
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YOUR-GITHUB-USERNAME/PROJECT-ONE">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR-GITHUB-USERNAME&repo=PROJECT-ONE&hide_border=true&bg_color=0F172A&title_color=14B8A6&text_color=E5E7EB&icon_color=F97316" alt="Pinned project one" width="100%" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/YOUR-GITHUB-USERNAME/PROJECT-TWO">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR-GITHUB-USERNAME&repo=PROJECT-TWO&hide_border=true&bg_color=0F172A&title_color=14B8A6&text_color=E5E7EB&icon_color=F97316" alt="Pinned project two" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
+<br/>
+<br/>
 
-<br />
+<!-- ═══════════════════ MOVE SET / SKILLS ══════════════════ -->
 
-<div align="center">
+<img src="https://raw.githubusercontent.com/gokulan/gokulan/main/moveset.svg"
+     alt="Move Set – Tech Skills"
+     width="860"/>
 
-## Signature
+<br/>
+<br/>
 
-<pre>
-  ####    #####   #   #  #   #  #       ###   #   #
- #    #  #     #  #  #   #   #  #      #   #  ##  #
- #       #     #  # #    #   #  #      #   #  # # #
- #  ###  #     #  ##     #   #  #      #####  #  ##
- #    #  #     #  # #    #   #  #      #   #  #   #
- #    #  #     #  #  #   #   #  #      #   #  #   #
-  ####    #####   #   #   ###   #####  #   #  #   #
-</pre>
+<!-- ════════════════════ POKÉDEX / PROJECTS ════════════════ -->
 
-</div>
+<img src="https://raw.githubusercontent.com/gokulan/gokulan/main/pokedex.svg"
+     alt="Pokédex – Projects"
+     width="860"/>
 
-<br />
+<br/>
+<br/>
 
-<div align="center">
+<!-- ════════════════════ GITHUB STATS ══════════════════════ -->
 
-## Contribution Flow
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-GITHUB-USERNAME&bg_color=0F172A&color=E5E7EB&line=14B8A6&point=F97316&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
-
-</div>
-
-<br />
-
-## Current Focus
-
-```txt
-Design systems        [#################---] 85%
-Full-stack apps       [################----] 80%
-Automation            [###############-----] 75%
-AI workflows          [##############------] 70%
-Performance tuning    [#############-------] 65%
+```
+◈━━━━━━━━━━━━━━━━━━━━━━ BATTLE RECORD ━━━━━━━━━━━━━━━━━━━━━◈
 ```
 
-<br />
+<img height="170"
+     src="https://github-readme-stats.vercel.app/api?username=gokulan&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&icon_color=EE1515&text_color=CCCCFF&border_radius=10"
+     alt="GitHub Stats"/>
+&nbsp;
+<img height="170"
+     src="https://github-readme-stats.vercel.app/api/top-langs/?username=gokulan&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&text_color=CCCCFF&border_radius=10"
+     alt="Top Languages"/>
 
-<div align="center">
+<br/>
+<br/>
 
-## Connect
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=gokulan&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=EE1515&ring=F5C518&fire=EE1515&currStreakLabel=F5C518&border_radius=10"
+     alt="Streak Stats"
+     width="600"/>
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-2563EB?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F172A" alt="LinkedIn" />
-</a>
-<a href="https://x.com/YOUR-X-HANDLE">
-  <img src="https://img.shields.io/badge/X-Follow-111827?style=for-the-badge&logo=x&logoColor=white&labelColor=0F172A" alt="X profile" />
-</a>
-<a href="https://your-portfolio.example.com">
-  <img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0F172A" alt="Portfolio" />
-</a>
+<br/>
+<br/>
 
-<br />
-<br />
+<!-- ═══════════════════ CONTRIBUTION MAP ═══════════════════ -->
 
-<table align="center">
-  <tr>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-    <td bgcolor="#E5E7EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#2563EB">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#14B8A6">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-    <td bgcolor="#F97316">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-    <td bgcolor="#0F172A">&nbsp;&nbsp;</td>
-  </tr>
-</table>
+```
+◈━━━━━━━━━━━━━━━━━━━━ WILD ENCOUNTERS ━━━━━━━━━━━━━━━━━━━━━◈
+```
 
-<br />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gokulan&bg_color=0D0D1A&color=F5C518&line=EE1515&point=F5C518&area=true&area_color=EE151520&hide_border=true&border_radius=10"
+     alt="Activity Graph"
+     width="860"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:F97316,35:14B8A6,70:2563EB,100:0F172A&animation=twinkling" alt="Animated footer wave" width="100%" />
+<br/>
+<br/>
+
+<!-- ══════════════════ PAC-MAN / SNAKE ═════════════════════ -->
+
+```
+◈━━━━━━━━━━━━━━━━━━━ POKÉMON BATTLE FIELD ━━━━━━━━━━━━━━━━━◈
+```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake.svg"/>
+  <img alt="Contribution Snake"
+       src="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake-dark.svg"
+       width="860"/>
+</picture>
+
+<br/>
+<br/>
+
+<!-- ══════════════════ TROPHIES ════════════════════════════ -->
+
+```
+◈━━━━━━━━━━━━━━━━━━━━━━━━ GYM BADGES ━━━━━━━━━━━━━━━━━━━━━━◈
+```
+
+<img src="https://github-profile-trophy.vercel.app/?username=gokulan&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6"
+     alt="Trophies"
+     width="860"/>
+
+<br/>
+<br/>
+
+<!-- ══════════════════ CONNECT ══════════════════════════════ -->
+
+```
+◈━━━━━━━━━━━━━━━━━━━━━━━ TRAINER LINKS ━━━━━━━━━━━━━━━━━━━━◈
+```
+
+[![GitHub](https://img.shields.io/badge/GitHub-gokulan-F5C518?style=for-the-badge&logo=github&logoColor=F5C518&labelColor=0D0D1A)](https://github.com/gokulan)
+[![Instagram](https://img.shields.io/badge/Instagram-@voltmedia.in-EE1515?style=for-the-badge&logo=instagram&logoColor=EE1515&labelColor=0D0D1A)](https://instagram.com/voltmedia.in)
+[![Email](https://img.shields.io/badge/Email-gokulan.rkivln-61DAFB?style=for-the-badge&logo=gmail&logoColor=61DAFB&labelColor=0D0D1A)](mailto:gokulan.rkivln@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokulan-A855F7?style=for-the-badge&logo=linkedin&logoColor=A855F7&labelColor=0D0D1A)](https://linkedin.com/in/gokulan)
+
+<br/>
+<br/>
+
+<!-- ══════════════════ FOOTER ══════════════════════════════ -->
+
+<img src="https://raw.githubusercontent.com/gokulan/gokulan/main/footer.svg"
+     alt="Footer – Gotta Build Em All"
+     width="860"/>
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=gokulan&color=EE1515&style=for-the-badge&label=TRAINERS+VISITED&labelColor=0D0D1A)
 
 </div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  SETUP INSTRUCTIONS (read this block, then delete it)      -->
+<!--                                                            -->
+<!--  1. Create a repo named exactly:  gokulan/gokulan          -->
+<!--     (must match your GitHub username)                      -->
+<!--                                                            -->
+<!--  2. Upload these files to the ROOT of that repo:           -->
+<!--       README.md   ← this file                              -->
+<!--       banner.svg                                           -->
+<!--       moveset.svg                                          -->
+<!--       pokedex.svg                                          -->
+<!--       footer.svg                                           -->
+<!--                                                            -->
+<!--  3. Replace every "gokulan" in badge/stats URLs with       -->
+<!--     your actual GitHub username if different.              -->
+<!--                                                            -->
+<!--  4. For the contribution SNAKE animation, add this         -->
+<!--     GitHub Action at:  .github/workflows/snake.yml         -->
+<!--                                                            -->
+<!--  name: Generate Snake                                      -->
+<!--  on:                                                       -->
+<!--    schedule:                                               -->
+<!--      - cron: "0 0 * * *"                                   -->
+<!--    workflow_dispatch:                                       -->
+<!--  jobs:                                                     -->
+<!--    generate:                                               -->
+<!--      runs-on: ubuntu-latest                                -->
+<!--      steps:                                                -->
+<!--        - uses: Platane/snk@v3                              -->
+<!--          with:                                             -->
+<!--            github_user_name: ${{ github.repository_owner }}-->
+<!--            outputs: |                                      -->
+<!--              dist/github-contribution-grid-snake.svg       -->
+<!--              dist/github-contribution-grid-snake-dark.svg?palette=github-dark -->
+<!--        - uses: crazy-max/ghaction-github-pages@v3          -->
+<!--          with:                                             -->
+<!--            target_branch: output                           -->
+<!--            build_dir: dist                                 -->
+<!--          env:                                              -->
+<!--            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
