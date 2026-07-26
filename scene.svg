@@ -1,32 +1,34 @@
-<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @keyframes glimmer {
-      0%, 100% { opacity: 0.3; }
-      50% { opacity: 1; }
-    }
-    .star { fill: #C9A96E; animation: glimmer 2s infinite ease-in-out; }
-    .tower-line { stroke: #C9A96E; stroke-width: 1.5; fill: none; }
-    .ground { stroke: #C9A96E; stroke-opacity: 0.3; }
-  </style>
-  <!-- Background Stars -->
-  <circle class="star" cx="200" cy="50" r="1" style="animation-delay: 0.2s"/>
-  <circle class="star" cx="600" cy="80" r="1" style="animation-delay: 0.8s"/>
-  <circle class="star" cx="400" cy="30" r="1.5" style="animation-delay: 1.2s"/>
-  
-  <!-- Stylized Eiffel Tower -->
-  <g transform="translate(365, 50) scale(0.7)">
-    <path class="tower-line" d="M50,0 L55,250 M50,0 L45,250" />
-    <path class="tower-line" d="M10,280 L40,0 L90,280" />
-    <path class="tower-line" d="M25,180 L75,180" />
-    <path class="tower-line" d="M35,100 L65,100" />
-    <path class="tower-line" d="M0,280 Q50,220 100,280" />
-    <!-- Lights -->
-    <circle fill="#FFF" cx="50" cy="50" r="1.5">
-        <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite" />
+<svg width="860" height="400" viewBox="0 0 860 400" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="rounded">
+      <rect width="860" height="400" rx="15" />
+    </clipPath>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#C9A96E" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <!-- Real Image of Eiffel Tower -->
+    <image xlink:href="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&amp;fit=crop&amp;q=80&amp;w=860&amp;h=400" width="960" height="450" x="-50" y="-25">
+      <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="20s" repeatCount="indefinite" />
+    </image>
+    
+    <!-- Golden Overlay Frame -->
+    <rect width="860" height="400" stroke="url(#goldGrad)" stroke-width="40" fill="none" style="mix-blend-mode: overlay;" />
+    
+    <!-- Animating Glimmer Lights -->
+    <circle cx="430" cy="150" r="2" fill="white">
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
     </circle>
-    <circle fill="#FFF" cx="45" cy="150" r="1.5">
-        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+    <circle cx="410" cy="200" r="1.5" fill="white">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" />
     </circle>
   </g>
-  <line class="ground" x1="100" y1="250" x2="700" y2="250" />
+  
+  <!-- Text Overlay -->
+  <rect x="330" y="340" width="200" height="40" rx="20" fill="#0C1020" fill-opacity="0.8" />
+  <text x="430" y="365" fill="#C9A96E" font-family="Arial" font-size="14" font-weight="bold" letter-spacing="3" text-anchor="middle">PARIS, FRANCE</text>
 </svg>
