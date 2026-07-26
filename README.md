@@ -61,7 +61,7 @@
 <br/>
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rkivln&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=EE1515&ring=F5C518&fire=EE1515&currStreakLabel=F5C518&border_radius=10"
+<img src="https://github-readme-streak-stats.herokuapp.com/?username=rkivln&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=EE1515&ring=F5C518&fire=EE1515&currStreakLabel=F5C518&border_radius=10"
      alt="Streak Stats"
      width="600"/>
 
