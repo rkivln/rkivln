@@ -55,13 +55,13 @@
      alt="GitHub Stats"/>
 &nbsp;
 <img height="170"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=gokulan&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&text_color=CCCCFF&border_radius=10"
+     src="https://github-readme-stats.vercel.app/api/top-langs/?username=rkivln&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=F5C518&text_color=CCCCFF&border_radius=10"
      alt="Top Languages"/>
 
 <br/>
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=gokulan&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=EE1515&ring=F5C518&fire=EE1515&currStreakLabel=F5C518&border_radius=10"
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rkivln&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=EE1515&ring=F5C518&fire=EE1515&currStreakLabel=F5C518&border_radius=10"
      alt="Streak Stats"
      width="600"/>
 
