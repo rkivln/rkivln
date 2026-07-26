@@ -81,11 +81,7 @@
 <br/>
 <br/>
 
-<!-- ══════════════════ PAC-MAN / SNAKE ═════════════════════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━ POKÉMON BATTLE FIELD ━━━━━━━━━━━━━━━━━◈
-```
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
@@ -100,24 +96,12 @@
 <br/>
 <br/>
 
-<!-- ══════════════════ TROPHIES ════════════════════════════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━━━━━━ GYM BADGES ━━━━━━━━━━━━━━━━━━━━━━◈
-```
-
-<img src="https://github-profile-trophy.vercel.app/?username=rkivln&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6"
-     alt="Trophies"
-     width="860"/>
 
 <br/>
 <br/>
 
-<!-- ══════════════════ CONNECT ══════════════════════════════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━━━━━ TRAINER LINKS ━━━━━━━━━━━━━━━━━━━━◈
-```
 
 [![GitHub](https://img.shields.io/badge/GitHub-gokulan-F5C518?style=for-the-badge&logo=github&logoColor=F5C518&labelColor=0D0D1A)](https://github.com/rkivln)
 [![Instagram](https://img.shields.io/badge/Instagram-@rkivln-EE1515?style=for-the-badge&logo=instagram&logoColor=EE1515&labelColor=0D0D1A)](https://instagram.com/rkivln)
@@ -127,7 +111,6 @@
 <br/>
 <br/>
 
-<!-- ══════════════════ FOOTER ══════════════════════════════ -->
 
 <img src="footer.svg"
      alt="Footer – Gotta Build Em All"
