@@ -56,9 +56,6 @@
 
 <!-- ═══════════════════ CONTRIBUTION MAP ═══════════════════ -->
 
-```
-◈━━━━━━━━━━━━━━━━━━━━ WILD ENCOUNTERS ━━━━━━━━━━━━━━━━━━━━━◈
-```
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=rkivln&bg_color=0D0D1A&color=F5C518&line=EE1515&point=F5C518&area=true&area_color=EE151520&hide_border=true&border_radius=10"
      alt="Activity Graph"
