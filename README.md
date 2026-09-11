@@ -57,9 +57,6 @@
 <!-- ═══════════════════ CONTRIBUTION MAP ═══════════════════ -->
 
 
-<img src="graph.svg"
-     alt="Graph"
-     width="860"/>
 
 <br/>
 <br/>
