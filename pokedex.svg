@@ -29,192 +29,803 @@
       <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
       <feFlood flood-color="#61DAFB" flood-opacity="0.4" result="c"/>
       <feComposite in="c" in2="b" operator="in" result="shadow"/>
-      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
     <filter id="cardGlow2" x="-10%" y="-10%" width="120%" height="120%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
       <feFlood flood-color="#A855F7" flood-opacity="0.4" result="c"/>
       <feComposite in="c" in2="b" operator="in" result="shadow"/>
-      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
     <filter id="cardGlow3" x="-10%" y="-10%" width="120%" height="120%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
       <feFlood flood-color="#4CAF50" flood-opacity="0.4" result="c"/>
       <feComposite in="c" in2="b" operator="in" result="shadow"/>
-      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
     <filter id="cardGlow4" x="-10%" y="-10%" width="120%" height="120%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
       <feFlood flood-color="#FF4444" flood-opacity="0.4" result="c"/>
       <feComposite in="c" in2="b" operator="in" result="shadow"/>
-      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
     <style>
-      .card { animation: cardFloat 3s ease-in-out infinite; }
-      .c1 { animation-delay: 0s;    }
+      .card {
+        animation: cardFloat 3s ease-in-out infinite;
+      }
+
+      .c1 { animation-delay: 0s; }
       .c2 { animation-delay: 0.75s; }
-      .c3 { animation-delay: 1.5s;  }
+      .c3 { animation-delay: 1.5s; }
       .c4 { animation-delay: 2.25s; }
-      .border-pulse { animation: borderPulse 3s ease-in-out infinite; }
-      .hp-bar { animation: hpFill 1.5s ease-out both; }
-      .hp1 { animation-delay:0.2s; }
-      .hp2 { animation-delay:0.4s; }
-      .hp3 { animation-delay:0.6s; }
-      .hp4 { animation-delay:0.8s; }
+
+      .border-pulse {
+        animation: borderPulse 3s ease-in-out infinite;
+      }
+
+      .hp-bar {
+        animation: hpFill 1.5s ease-out both;
+        transform-box: fill-box;
+        transform-origin: left center;
+      }
+
+      .hp1 { animation-delay: 0.2s; }
+      .hp2 { animation-delay: 0.4s; }
+      .hp3 { animation-delay: 0.6s; }
+      .hp4 { animation-delay: 0.8s; }
 
       @keyframes cardFloat {
-        0%,100% { transform: translateY(0); }
-        50%     { transform: translateY(-5px); }
+        0%,100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-5px);
+        }
       }
 
       @keyframes borderPulse {
-        0%,100% { stroke:#EE1515; stroke-opacity:0.6; }
-        50%     { stroke:#FF4444; stroke-opacity:1; }
+        0%,100% {
+          stroke: #EE1515;
+          stroke-opacity: 0.6;
+        }
+
+        50% {
+          stroke: #FF4444;
+          stroke-opacity: 1;
+        }
       }
 
       @keyframes hpFill {
-        from { transform: scaleX(0); }
-        to   { transform: scaleX(1); }
+        from {
+          transform: scaleX(0);
+        }
+
+        to {
+          transform: scaleX(1);
+        }
       }
     </style>
   </defs>
 
-  <rect width="860" height="230" fill="url(#bg3)" rx="14"/>
-  <rect width="858" height="228" x="1" y="1"
-        fill="none"
-        stroke="#EE1515"
-        stroke-width="1.5"
-        rx="13"
-        class="border-pulse"/>
 
-  <!-- Title -->
-  <text x="430" y="26"
+  <!-- BACKGROUND -->
+
+  <rect
+    width="860"
+    height="230"
+    fill="url(#bg3)"
+    rx="14"
+  />
+
+  <rect
+    width="858"
+    height="228"
+    x="1"
+    y="1"
+    fill="none"
+    stroke="#EE1515"
+    stroke-width="1.5"
+    rx="13"
+    class="border-pulse"
+  />
+
+
+  <!-- TITLE -->
+
+  <text
+    x="430"
+    y="26"
+    font-family="'Courier New',monospace"
+    font-size="13"
+    font-weight="900"
+    fill="#F5C518"
+    text-anchor="middle"
+    letter-spacing="5"
+  >
+    ◉ POKÉDEX  /  MY PROJECTS ◉
+  </text>
+
+  <line
+    x1="30"
+    y1="34"
+    x2="830"
+    y2="34"
+    stroke="#F5C518"
+    stroke-width="0.5"
+    opacity="0.3"
+  />
+
+
+  <!-- ========================================================= -->
+  <!-- CARD 1 : AI FAKE IDENTITY -->
+  <!-- ========================================================= -->
+
+  <g transform="translate(20,46)" filter="url(#cardGlow1)">
+    <g class="card c1">
+
+      <rect
+        width="190"
+        height="170"
+        rx="10"
+        fill="url(#card1)"
+      />
+
+      <rect
+        width="190"
+        height="170"
+        rx="10"
+        fill="none"
+        stroke="#61DAFB"
+        stroke-width="1.5"
+      />
+
+      <!-- TYPE -->
+
+      <rect
+        x="8"
+        y="8"
+        width="50"
+        height="16"
+        rx="8"
+        fill="#61DAFB"
+        opacity="0.3"
+      />
+
+      <rect
+        x="8"
+        y="8"
+        width="50"
+        height="16"
+        rx="8"
+        fill="none"
+        stroke="#61DAFB"
+        stroke-width="1"
+      />
+
+      <text
+        x="33"
+        y="20"
+        font-family="'Courier New',monospace"
+        font-size="9"
+        font-weight="700"
+        fill="#61DAFB"
+        text-anchor="middle"
+      >
+        WATER
+      </text>
+
+      <!-- NUMBER -->
+
+      <text
+        x="182"
+        y="20"
+        font-family="'Courier New',monospace"
+        font-size="9"
+        fill="#61DAFB"
+        text-anchor="end"
+        opacity="0.7"
+      >
+        #001
+      </text>
+
+      <!-- ICON -->
+
+      <text
+        x="95"
+        y="88"
+        font-size="44"
+        text-anchor="middle"
+      >
+        🪪
+      </text>
+
+      <!-- HP -->
+
+      <text
+        x="10"
+        y="118"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#AAAACC"
+      >
+        HP
+      </text>
+
+      <rect
+        x="28"
+        y="110"
+        width="130"
+        height="8"
+        rx="4"
+        fill="#0D1B2E"
+      />
+
+      <rect
+        x="28"
+        y="110"
+        width="124"
+        height="8"
+        rx="4"
+        fill="#61DAFB"
+        class="hp-bar hp1"
+      />
+
+      <text
+        x="162"
+        y="118"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#61DAFB"
+      >
+        95
+      </text>
+
+      <!-- NAME -->
+
+      <text
+        x="95"
+        y="136"
         font-family="'Courier New',monospace"
         font-size="13"
         font-weight="900"
+        fill="#FFFFFF"
+        text-anchor="middle"
+      >
+        FAKE ID SCREEN
+      </text>
+
+      <text
+        x="95"
+        y="150"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#8899BB"
+        text-anchor="middle"
+      >
+        AI Identity Verification
+      </text>
+
+      <text
+        x="95"
+        y="162"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#8899BB"
+        text-anchor="middle"
+      >
+        AI/ML · OCR · CV · Security
+      </text>
+
+    </g>
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- CARD 2 : PROJECT A.U.R.A. -->
+  <!-- ========================================================= -->
+
+  <g transform="translate(230,46)" filter="url(#cardGlow2)">
+    <g class="card c2">
+
+      <rect
+        width="190"
+        height="170"
+        rx="10"
+        fill="url(#card2)"
+      />
+
+      <rect
+        width="190"
+        height="170"
+        rx="10"
+        fill="none"
+        stroke="#F5C518"
+        stroke-width="1.5"
+      />
+
+      <!-- TYPE -->
+
+      <rect
+        x="8"
+        y="8"
+        width="66"
+        height="16"
+        rx="8"
+        fill="#F5C518"
+        opacity="0.3"
+      />
+
+      <rect
+        x="8"
+        y="8"
+        width="66"
+        height="16"
+        rx="8"
+        fill="none"
+        stroke="#F5C518"
+        stroke-width="1"
+      />
+
+      <text
+        x="41"
+        y="20"
+        font-family="'Courier New',monospace"
+        font-size="9"
+        font-weight="700"
         fill="#F5C518"
         text-anchor="middle"
-        letter-spacing="5">◉ POKÉDEX  /  MY PROJECTS ◉</text>
+      >
+        ELECTRIC
+      </text>
 
-  <line x1="30" y1="34" x2="830" y2="34"
-        stroke="#F5C518"
-        stroke-width="0.5"
-        opacity="0.3"/>
+      <!-- NUMBER -->
 
+      <text
+        x="182"
+        y="20"
+        font-family="'Courier New',monospace"
+        font-size="9"
+        fill="#F5C518"
+        text-anchor="end"
+        opacity="0.7"
+      >
+        #002
+      </text>
 
-  <!-- ── Card 1: AI Identity / WATER type ── -->
-  <g transform="translate(20, 46)" class="card c1" filter="url(#cardGlow1)">
-    <rect width="190" height="170" rx="10" fill="url(#card1)"/>
-    <rect width="190" height="170" rx="10" fill="none" stroke="#61DAFB" stroke-width="1.5"/>
+      <!-- ICON -->
 
-    <rect x="8" y="8" width="50" height="16" rx="8" fill="#61DAFB" opacity="0.3"/>
-    <rect x="8" y="8" width="50" height="16" rx="8" fill="none" stroke="#61DAFB" stroke-width="1"/>
-    <text x="33" y="20" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#61DAFB" text-anchor="middle">WATER</text>
+      <text
+        x="95"
+        y="88"
+        font-size="44"
+        text-anchor="middle"
+      >
+        🤖
+      </text>
 
-    <text x="182" y="20" font-family="'Courier New',monospace" font-size="9" fill="#61DAFB" text-anchor="end" opacity="0.7">#001</text>
+      <!-- HP -->
 
-    <text x="95" y="88" font-size="44" text-anchor="middle">🪪</text>
+      <text
+        x="10"
+        y="118"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#AAAACC"
+      >
+        HP
+      </text>
 
-    <text x="10" y="118" font-family="'Courier New',monospace" font-size="8" fill="#AAAACC">HP</text>
-    <rect x="28" y="110" width="130" height="8" rx="4" fill="#0D1B2E"/>
+      <rect
+        x="28"
+        y="110"
+        width="130"
+        height="8"
+        rx="4"
+        fill="#150D2A"
+      />
 
-    <g style="transform-origin:28px 114px">
-      <rect x="28" y="110" width="124" height="8" rx="4" fill="#61DAFB" class="hp-bar hp1"/>
+      <rect
+        x="28"
+        y="110"
+        width="127"
+        height="8"
+        rx="4"
+        fill="#F5C518"
+        class="hp-bar hp2"
+      />
+
+      <text
+        x="162"
+        y="118"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#F5C518"
+      >
+        98
+      </text>
+
+      <!-- NAME -->
+
+      <text
+        x="95"
+        y="136"
+        font-family="'Courier New',monospace"
+        font-size="13"
+        font-weight="900"
+        fill="#FFFFFF"
+        text-anchor="middle"
+      >
+        PROJECT A.U.R.A.
+      </text>
+
+      <text
+        x="95"
+        y="150"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#998877"
+        text-anchor="middle"
+      >
+        Legacy Factory Intelligence
+      </text>
+
+      <text
+        x="95"
+        y="162"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#998877"
+        text-anchor="middle"
+      >
+        Edge AI · IoT · RAG
+      </text>
+
     </g>
-
-    <text x="162" y="118" font-family="'Courier New',monospace" font-size="8" fill="#61DAFB">95</text>
-
-    <text x="95" y="136" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle">FAKE ID SCREEN</text>
-    <text x="95" y="150" font-family="'Courier New',monospace" font-size="8" fill="#8899BB" text-anchor="middle">AI Identity Verification</text>
-    <text x="95" y="162" font-family="'Courier New',monospace" font-size="8" fill="#8899BB" text-anchor="middle">AI/ML · OCR · CV · Security</text>
   </g>
 
 
-  <!-- ── Card 2: Project A.U.R.A. / ELECTRIC type ── -->
-  <g transform="translate(230, 46)" class="card c2" filter="url(#cardGlow2)">
-    <rect width="190" height="170" rx="10" fill="url(#card2)"/>
-    <rect width="190" height="170" rx="10" fill="none" stroke="#F5C518" stroke-width="1.5"/>
+  <!-- ========================================================= -->
+  <!-- CARD 3 : ALTUSMATE -->
+  <!-- ========================================================= -->
 
-    <rect x="8" y="8" width="66" height="16" rx="8" fill="#F5C518" opacity="0.3"/>
-    <rect x="8" y="8" width="66" height="16" rx="8" fill="none" stroke="#F5C518" stroke-width="1"/>
-    <text x="41" y="20" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#F5C518" text-anchor="middle">ELECTRIC</text>
+  <g transform="translate(440,46)" filter="url(#cardGlow3)">
+    <g class="card c3">
 
-    <text x="182" y="20" font-family="'Courier New',monospace" font-size="9" fill="#F5C518" text-anchor="end" opacity="0.7">#002</text>
+      <rect
+        width="190"
+        height="170"
+        rx="10"
+        fill="url(#card3)"
+      />
 
-    <text x="95" y="88" font-size="44" text-anchor="middle">🤖</text>
+      <rect
+        width="190"
+        height="170"
+        rx="10"
+        fill="none"
+        stroke="#4CAF50"
+        stroke-width="1.5"
+      />
 
-    <text x="10" y="118" font-family="'Courier New',monospace" font-size="8" fill="#AAAACC">HP</text>
-    <rect x="28" y="110" width="130" height="8" rx="4" fill="#150D2A"/>
+      <!-- TYPE -->
 
-    <g style="transform-origin:28px 114px">
-      <rect x="28" y="110" width="127" height="8" rx="4" fill="#F5C518" class="hp-bar hp2"/>
+      <rect
+        x="8"
+        y="8"
+        width="50"
+        height="16"
+        rx="8"
+        fill="#4CAF50"
+        opacity="0.3"
+      />
+
+      <rect
+        x="8"
+        y="8"
+        width="50"
+        height="16"
+        rx="8"
+        fill="none"
+        stroke="#4CAF50"
+        stroke-width="1"
+      />
+
+      <text
+        x="33"
+        y="20"
+        font-family="'Courier New',monospace"
+        font-size="9"
+        font-weight="700"
+        fill="#4CAF50"
+        text-anchor="middle"
+      >
+        GRASS
+      </text>
+
+      <!-- NUMBER -->
+
+      <text
+        x="182"
+        y="20"
+        font-family="'Courier New',monospace"
+        font-size="9"
+        fill="#4CAF50"
+        text-anchor="end"
+        opacity="0.7"
+      >
+        #003
+      </text>
+
+      <!-- ICON -->
+
+      <text
+        x="95"
+        y="88"
+        font-size="44"
+        text-anchor="middle"
+      >
+        🎓
+      </text>
+
+      <!-- HP -->
+
+      <text
+        x="10"
+        y="118"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#AAAACC"
+      >
+        HP
+      </text>
+
+      <rect
+        x="28"
+        y="110"
+        width="130"
+        height="8"
+        rx="4"
+        fill="#0D1E0D"
+      />
+
+      <rect
+        x="28"
+        y="110"
+        width="120"
+        height="8"
+        rx="4"
+        fill="#4CAF50"
+        class="hp-bar hp3"
+      />
+
+      <text
+        x="162"
+        y="118"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#4CAF50"
+      >
+        92
+      </text>
+
+      <!-- NAME -->
+
+      <text
+        x="95"
+        y="136"
+        font-family="'Courier New',monospace"
+        font-size="13"
+        font-weight="900"
+        fill="#FFFFFF"
+        text-anchor="middle"
+      >
+        ALTUSMATE
+      </text>
+
+      <text
+        x="95"
+        y="150"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#88AA88"
+        text-anchor="middle"
+      >
+        Campus EdTech Platform
+      </text>
+
+      <text
+        x="95"
+        y="162"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#88AA88"
+        text-anchor="middle"
+      >
+        React · Node · MongoDB
+      </text>
+
     </g>
-
-    <text x="162" y="118" font-family="'Courier New',monospace" font-size="8" fill="#F5C518">98</text>
-
-    <text x="95" y="136" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle">PROJECT A.U.R.A.</text>
-    <text x="95" y="150" font-family="'Courier New',monospace" font-size="8" fill="#998877" text-anchor="middle">Legacy Factory Intelligence</text>
-    <text x="95" y="162" font-family="'Courier New',monospace" font-size="8" fill="#998877" text-anchor="middle">Edge AI · IoT · RAG</text>
   </g>
 
 
-  <!-- ── Card 3: AltusMATE / GRASS type ── -->
-  <g transform="translate(440, 46)" class="card c3" filter="url(#cardGlow3)">
-    <rect width="190" height="170" rx="10" fill="url(#card3)"/>
-    <rect width="190" height="170" rx="10" fill="none" stroke="#4CAF50" stroke-width="1.5"/>
+  <!-- ========================================================= -->
+  <!-- CARD 4 : ATTENDIFIER -->
+  <!-- ========================================================= -->
 
-    <rect x="8" y="8" width="50" height="16" rx="8" fill="#4CAF50" opacity="0.3"/>
-    <rect x="8" y="8" width="50" height="16" rx="8" fill="none" stroke="#4CAF50" stroke-width="1"/>
-    <text x="33" y="20" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#4CAF50" text-anchor="middle">GRASS</text>
+  <g transform="translate(650,46)" filter="url(#cardGlow4)">
+    <g class="card c4">
 
-    <text x="182" y="20" font-family="'Courier New',monospace" font-size="9" fill="#4CAF50" text-anchor="end" opacity="0.7">#003</text>
+      <rect
+        width="190"
+        height="170"
+        rx="10"
+        fill="url(#card4)"
+      />
 
-    <text x="95" y="88" font-size="44" text-anchor="middle">🎓</text>
+      <rect
+        width="190"
+        height="170"
+        rx="10"
+        fill="none"
+        stroke="#FF4444"
+        stroke-width="1.5"
+      />
 
-    <text x="10" y="118" font-family="'Courier New',monospace" font-size="8" fill="#AAAACC">HP</text>
-    <rect x="28" y="110" width="130" height="8" rx="4" fill="#0D1E0D"/>
+      <!-- TYPE -->
 
-    <g style="transform-origin:28px 114px">
-      <rect x="28" y="110" width="120" height="8" rx="4" fill="#4CAF50" class="hp-bar hp3"/>
+      <rect
+        x="8"
+        y="8"
+        width="42"
+        height="16"
+        rx="8"
+        fill="#FF4444"
+        opacity="0.3"
+      />
+
+      <rect
+        x="8"
+        y="8"
+        width="42"
+        height="16"
+        rx="8"
+        fill="none"
+        stroke="#FF4444"
+        stroke-width="1"
+      />
+
+      <text
+        x="29"
+        y="20"
+        font-family="'Courier New',monospace"
+        font-size="9"
+        font-weight="700"
+        fill="#FF4444"
+        text-anchor="middle"
+      >
+        FIRE
+      </text>
+
+      <!-- NUMBER -->
+
+      <text
+        x="182"
+        y="20"
+        font-family="'Courier New',monospace"
+        font-size="9"
+        fill="#FF4444"
+        text-anchor="end"
+        opacity="0.7"
+      >
+        #004
+      </text>
+
+      <!-- ICON -->
+
+      <text
+        x="95"
+        y="88"
+        font-size="44"
+        text-anchor="middle"
+      >
+        📋
+      </text>
+
+      <!-- HP -->
+
+      <text
+        x="10"
+        y="118"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#AAAACC"
+      >
+        HP
+      </text>
+
+      <rect
+        x="28"
+        y="110"
+        width="130"
+        height="8"
+        rx="4"
+        fill="#1E0D0D"
+      />
+
+      <rect
+        x="28"
+        y="110"
+        width="114"
+        height="8"
+        rx="4"
+        fill="#FF4444"
+        class="hp-bar hp4"
+      />
+
+      <text
+        x="162"
+        y="118"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#FF4444"
+      >
+        88
+      </text>
+
+      <!-- NAME -->
+
+      <text
+        x="95"
+        y="136"
+        font-family="'Courier New',monospace"
+        font-size="13"
+        font-weight="900"
+        fill="#FFFFFF"
+        text-anchor="middle"
+      >
+        ATTENDIFIER
+      </text>
+
+      <text
+        x="95"
+        y="150"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#AA8888"
+        text-anchor="middle"
+      >
+        Smart Attendance System
+      </text>
+
+      <text
+        x="95"
+        y="162"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#AA8888"
+        text-anchor="middle"
+      >
+        React · Node · MongoDB
+      </text>
+
     </g>
-
-    <text x="162" y="118" font-family="'Courier New',monospace" font-size="8" fill="#4CAF50">92</text>
-
-    <text x="95" y="136" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle">ALTUSMATE</text>
-    <text x="95" y="150" font-family="'Courier New',monospace" font-size="8" fill="#88AA88" text-anchor="middle">Campus EdTech Platform</text>
-    <text x="95" y="162" font-family="'Courier New',monospace" font-size="8" fill="#88AA88" text-anchor="middle">React · Node · MongoDB</text>
-  </g>
-
-
-  <!-- ── Card 4: Attendifier / FIRE type ── -->
-  <g transform="translate(650, 46)" class="card c4" filter="url(#cardGlow4)">
-    <rect width="190" height="170" rx="10" fill="url(#card4)"/>
-    <rect width="190" height="170" rx="10" fill="none" stroke="#FF4444" stroke-width="1.5"/>
-
-    <rect x="8" y="8" width="42" height="16" rx="8" fill="#FF4444" opacity="0.3"/>
-    <rect x="8" y="8" width="42" height="16" rx="8" fill="none" stroke="#FF4444" stroke-width="1"/>
-    <text x="29" y="20" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#FF4444" text-anchor="middle">FIRE</text>
-
-    <text x="182" y="20" font-family="'Courier New',monospace" font-size="9" fill="#FF4444" text-anchor="end" opacity="0.7">#004</text>
-
-    <text x="95" y="88" font-size="44" text-anchor="middle">📋</text>
-
-    <text x="10" y="118" font-family="'Courier New',monospace" font-size="8" fill="#AAAACC">HP</text>
-    <rect x="28" y="110" width="130" height="8" rx="4" fill="#1E0D0D"/>
-
-    <g style="transform-origin:28px 114px">
-      <rect x="28" y="110" width="114" height="8" rx="4" fill="#FF4444" class="hp-bar hp4"/>
-    </g>
-
-    <text x="162" y="118" font-family="'Courier New',monospace" font-size="8" fill="#FF4444">88</text>
-
-    <text x="95" y="136" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle">ATTENDIFIER</text>
-    <text x="95" y="150" font-family="'Courier New',monospace" font-size="8" fill="#AA8888" text-anchor="middle">Smart Attendance System</text>
-    <text x="95" y="162" font-family="'Courier New',monospace" font-size="8" fill="#AA8888" text-anchor="middle">React · Node · MongoDB</text>
   </g>
 
 </svg>
