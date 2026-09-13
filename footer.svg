@@ -1,215 +1,128 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 120" width="860" height="120">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 860 140"
+     width="860"
+     height="140">
+
   <defs>
 
-    <!-- Background -->
-    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1A1A2E"/>
-      <stop offset="100%" stop-color="#0A0A15"/>
+    <!-- ═══════════════════════════════════════
+         VICE CITY SKY
+    ═══════════════════════════════════════ -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#17152F"/>
+      <stop offset="52%"  stop-color="#4A1F63"/>
+      <stop offset="100%" stop-color="#F04B8A"/>
     </linearGradient>
 
-    <!-- Pokéball gradients -->
-    <radialGradient id="r1" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#FF5555"/>
-      <stop offset="100%" stop-color="#CC0000"/>
-    </radialGradient>
+    <!-- SUN -->
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFF0A6"/>
+      <stop offset="100%" stop-color="#FF9A56"/>
+    </linearGradient>
 
-    <radialGradient id="r2" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#FFE566"/>
-      <stop offset="100%" stop-color="#F5C518"/>
-    </radialGradient>
+    <!-- ROAD -->
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#171827"/>
+      <stop offset="100%" stop-color="#070812"/>
+    </linearGradient>
 
-    <radialGradient id="r3" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#61DAFB"/>
-      <stop offset="100%" stop-color="#0EA5E9"/>
-    </radialGradient>
+    <!-- SUN GLOW -->
+    <filter id="softGlow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%">
 
-    <radialGradient id="r4" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#4CAF50"/>
-      <stop offset="100%" stop-color="#2E7D32"/>
-    </radialGradient>
+      <feGaussianBlur
+        stdDeviation="4"
+        result="blur"/>
 
-    <radialGradient id="r5" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#A855F7"/>
-      <stop offset="100%" stop-color="#7C3AED"/>
-    </radialGradient>
-
-    <radialGradient id="r6" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#FF8A3D"/>
-      <stop offset="100%" stop-color="#E65100"/>
-    </radialGradient>
-
-    <radialGradient id="wh" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#CCCCCC"/>
-    </radialGradient>
-
-
-    <!-- Glow filters -->
-
-    <filter id="glowRed">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"/>
-      <feFlood flood-color="#FF3333" flood-opacity="0.55" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
       <feMerge>
-        <feMergeNode in="shadow"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+
     </filter>
 
-    <filter id="glowYellow">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"/>
-      <feFlood flood-color="#F5C518" flood-opacity="0.55" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+    <!-- TEXT GLOW -->
+    <filter id="textGlow"
+            x="-50%"
+            y="-100%"
+            width="200%"
+            height="300%">
+
+      <feGaussianBlur
+        in="SourceAlpha"
+        stdDeviation="2.5"
+        result="blur"/>
+
+      <feFlood
+        flood-color="#FF3CAC"
+        flood-opacity=".65"/>
+
+      <feComposite
+        in2="blur"
+        operator="in"/>
+
       <feMerge>
-        <feMergeNode in="shadow"/>
+        <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+
     </filter>
 
-    <filter id="glowBlue">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"/>
-      <feFlood flood-color="#61DAFB" flood-opacity="0.55" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
-      <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="glowGreen">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"/>
-      <feFlood flood-color="#4CAF50" flood-opacity="0.55" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
-      <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="glowPurple">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"/>
-      <feFlood flood-color="#A855F7" flood-opacity="0.55" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
-      <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="glowOrange">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"/>
-      <feFlood flood-color="#FF8A3D" flood-opacity="0.55" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
-      <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
+    <!-- ═══════════════════════════════════════
+         ANIMATIONS
+    ═══════════════════════════════════════ -->
 
     <style>
 
-      /*
-        IMPORTANT:
-        Positioning is handled by the OUTER groups.
-        Animation is handled by INNER groups.
-        This prevents GitHub SVG rendering from stacking
-        all elements into one position.
-      */
-
-      .float1 {
-        animation: float1 3s ease-in-out infinite;
+      .pulse {
+        animation:
+          pulse 3s ease-in-out infinite;
       }
 
-      .float2 {
-        animation: float2 3.4s ease-in-out infinite 0.4s;
+      .scan {
+        animation:
+          scan 5s linear infinite;
       }
 
-      .float3 {
-        animation: float3 3.8s ease-in-out infinite 0.8s;
-      }
+      @keyframes pulse {
 
-      .float4 {
-        animation: float4 3.2s ease-in-out infinite 1.2s;
-      }
-
-      .float5 {
-        animation: float5 3.6s ease-in-out infinite 1.6s;
-      }
-
-      .float6 {
-        animation: float6 3.1s ease-in-out infinite 2s;
-      }
-
-      .quote {
-        animation: quoteFade 4s ease-in-out infinite;
-      }
-
-      .border-pulse {
-        animation: borderPulse 3s ease-in-out infinite;
-      }
-
-      .spark {
-        animation: sparkle 2s ease-in-out infinite;
-      }
-
-      @keyframes float1 {
-        0%,100% { transform: translateY(0); }
-        50% { transform: translateY(-5px); }
-      }
-
-      @keyframes float2 {
-        0%,100% { transform: translateY(0); }
-        50% { transform: translateY(5px); }
-      }
-
-      @keyframes float3 {
-        0%,100% { transform: translateY(0); }
-        50% { transform: translateY(-6px); }
-      }
-
-      @keyframes float4 {
-        0%,100% { transform: translateY(0); }
-        50% { transform: translateY(4px); }
-      }
-
-      @keyframes float5 {
-        0%,100% { transform: translateY(0); }
-        50% { transform: translateY(-5px); }
-      }
-
-      @keyframes float6 {
-        0%,100% { transform: translateY(0); }
-        50% { transform: translateY(5px); }
-      }
-
-      @keyframes quoteFade {
-        0%,100% { opacity:0.65; }
-        50% { opacity:1; }
-      }
-
-      @keyframes borderPulse {
         0%,100% {
-          stroke:#EE1515;
-          stroke-opacity:0.6;
+          opacity: .65;
         }
 
         50% {
-          stroke:#FF4444;
-          stroke-opacity:1;
+          opacity: 1;
         }
+
       }
 
-      @keyframes sparkle {
-        0%,100% {
-          opacity:0.3;
-          transform:scale(0.8);
+      @keyframes scan {
+
+        from {
+          transform: translateX(-70px);
+          opacity: 0;
+        }
+
+        15% {
+          opacity: .5;
         }
 
         50% {
-          opacity:1;
-          transform:scale(1.2);
+          opacity: .9;
         }
+
+        85% {
+          opacity: .5;
+        }
+
+        to {
+          transform: translateX(930px);
+          opacity: 0;
+        }
+
       }
 
     </style>
@@ -217,480 +130,433 @@
   </defs>
 
 
-  <!-- ========================================================= -->
-  <!-- BACKGROUND -->
-  <!-- ========================================================= -->
+  <!-- ═══════════════════════════════════════
+       BACKGROUND
+  ═══════════════════════════════════════ -->
 
   <rect
     width="860"
-    height="120"
-    fill="url(#bg4)"
+    height="140"
     rx="14"
+    fill="url(#sky)"
   />
+
+
+  <!-- ═══════════════════════════════════════
+       STARS
+  ═══════════════════════════════════════ -->
+
+  <g
+    fill="#FFFFFF"
+    class="pulse">
+
+    <circle cx="72"  cy="22" r="1"/>
+    <circle cx="156" cy="35" r=".8"/>
+    <circle cx="244" cy="17" r="1"/>
+    <circle cx="335" cy="29" r=".7"/>
+    <circle cx="522" cy="18" r=".9"/>
+    <circle cx="618" cy="32" r=".7"/>
+    <circle cx="735" cy="20" r="1"/>
+    <circle cx="802" cy="39" r=".8"/>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════
+       SUN
+  ═══════════════════════════════════════ -->
+
+  <circle
+    cx="430"
+    cy="72"
+    r="31"
+    fill="url(#sun)"
+    filter="url(#softGlow)"
+  />
+
+
+  <!-- SUN HORIZONTAL LINES -->
+
+  <g
+    stroke="#F04B8A"
+    stroke-width="3"
+    opacity=".65">
+
+    <line
+      x1="401"
+      y1="65"
+      x2="459"
+      y2="65"/>
+
+    <line
+      x1="400"
+      y1="72"
+      x2="460"
+      y2="72"/>
+
+    <line
+      x1="402"
+      y1="79"
+      x2="458"
+      y2="79"/>
+
+    <line
+      x1="406"
+      y1="86"
+      x2="454"
+      y2="86"/>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════
+       CITY SKYLINE
+  ═══════════════════════════════════════ -->
+
+  <path
+    d="
+      M0 91
+      L35 91
+      L35 70
+      L48 70
+      L48 84
+      L62 84
+      L62 59
+      L76 59
+      L76 88
+      L94 88
+      L94 73
+      L110 73
+      L110 87
+      L128 87
+      L128 51
+      L143 51
+      L143 88
+      L164 88
+      L164 67
+      L179 67
+      L179 88
+      L198 88
+      L198 61
+      L214 61
+      L214 88
+      L235 88
+      L235 76
+      L251 76
+      L251 88
+      L272 88
+      L272 66
+      L286 66
+      L286 88
+      L306 88
+      L306 57
+      L321 57
+      L321 88
+      L344 88
+      L344 72
+      L360 72
+      L360 88
+
+      L500 88
+      L500 70
+      L515 70
+      L515 88
+      L535 88
+      L535 54
+      L551 54
+      L551 88
+      L570 88
+      L570 66
+      L585 66
+      L585 88
+      L606 88
+      L606 61
+      L621 61
+      L621 88
+      L642 88
+      L642 74
+      L658 74
+      L658 88
+      L681 88
+      L681 57
+      L696 57
+      L696 88
+      L718 88
+      L718 68
+      L734 68
+      L734 88
+      L755 88
+      L755 52
+      L771 52
+      L771 88
+      L792 88
+      L792 72
+      L808 72
+      L808 88
+      L830 88
+      L830 62
+      L846 62
+      L846 91
+      Z
+    "
+    fill="#101020"
+    opacity=".92"
+  />
+
+
+  <!-- ═══════════════════════════════════════
+       LEFT PALM TREE
+  ═══════════════════════════════════════ -->
+
+  <g
+    fill="none"
+    stroke="#0B0B16"
+    stroke-linecap="round">
+
+    <!-- Trunk -->
+
+    <path
+      d="M112 111
+         C108 87 108 61 118 42"
+      stroke-width="5"/>
+
+    <!-- Leaves -->
+
+    <path
+      d="
+        M118 44
+        C105 34 94 34 83 37
+
+        M118 44
+        C106 27 103 20 104 12
+
+        M118 44
+        C124 27 133 21 143 17
+
+        M118 44
+        C137 34 150 35 160 39
+      "
+      stroke-width="3.5"/>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════
+       RIGHT PALM TREE
+  ═══════════════════════════════════════ -->
+
+  <g
+    fill="none"
+    stroke="#0B0B16"
+    stroke-linecap="round">
+
+    <!-- Trunk -->
+
+    <path
+      d="M748 111
+         C753 86 754 61 744 43"
+      stroke-width="5"/>
+
+    <!-- Leaves -->
+
+    <path
+      d="
+        M744 44
+        C757 33 769 32 780 36
+
+        M744 44
+        C756 27 759 20 758 12
+
+        M744 44
+        C738 27 729 21 719 17
+
+        M744 44
+        C725 34 712 35 702 39
+      "
+      stroke-width="3.5"/>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════
+       ROAD
+  ═══════════════════════════════════════ -->
+
+  <path
+    d="
+      M0 98
+      L860 98
+      L860 140
+      L0 140
+      Z
+    "
+    fill="url(#road)"
+  />
+
+
+  <!-- HORIZON NEON LINE -->
+
+  <path
+    d="M0 98 L860 98"
+    stroke="#00E5FF"
+    stroke-width="1.5"
+    opacity=".8"
+  />
+
+
+  <!-- ═══════════════════════════════════════
+       ROAD PERSPECTIVE
+  ═══════════════════════════════════════ -->
+
+  <g
+    stroke="#00E5FF"
+    opacity=".28"
+    fill="none">
+
+    <path
+      d="M430 99 L300 140"/>
+
+    <path
+      d="M430 99 L560 140"/>
+
+    <path
+      d="M330 99 L210 140"/>
+
+    <path
+      d="M530 99 L650 140"/>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════
+       ROAD CENTER MARKERS
+  ═══════════════════════════════════════ -->
+
+  <g
+    fill="#F7F7FF"
+    class="pulse">
+
+    <path
+      d="M425 103
+         L435 103
+         L440 111
+         L420 111
+         Z"/>
+
+    <path
+      d="M414 118
+         L446 118
+         L452 128
+         L408 128
+         Z"/>
+
+    <path
+      d="M400 133
+         L460 133
+         L464 140
+         L396 140
+         Z"/>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════
+       NEON OUTER FRAME
+  ═══════════════════════════════════════ -->
 
   <rect
-    width="858"
-    height="118"
-    x="1"
-    y="1"
+    x="1.5"
+    y="1.5"
+    width="857"
+    height="137"
+    rx="12.5"
     fill="none"
-    stroke="#EE1515"
-    stroke-width="1.5"
-    rx="13"
-    class="border-pulse"
+    stroke="#FF3CAC"
+    stroke-width="2"
   />
 
 
-  <!-- ========================================================= -->
-  <!-- POKÉMON DECORATIVE LINE -->
-  <!-- ========================================================= -->
+  <!-- INNER CYAN FRAME -->
 
-  <line
-    x1="40"
-    y1="32"
-    x2="820"
-    y2="32"
-    stroke="#F5C518"
-    stroke-width="0.5"
-    opacity="0.25"
+  <rect
+    x="8"
+    y="8"
+    width="844"
+    height="124"
+    rx="9"
+    fill="none"
+    stroke="#00E5FF"
+    stroke-width=".7"
+    opacity=".35"
   />
 
 
-  <!-- ========================================================= -->
-  <!-- POKÉBALL 1 -->
-  <!-- ========================================================= -->
-
-  <g transform="translate(45,10)" filter="url(#glowRed)">
-    <g class="float1">
-
-      <path
-        d="M 0,20 A 20,20 0 0,1 40,20 Z"
-        fill="url(#r1)"
-      />
-
-      <path
-        d="M 0,20 A 20,20 0 0,0 40,20 Z"
-        fill="url(#wh)"
-      />
-
-      <rect
-        x="0"
-        y="18"
-        width="40"
-        height="4"
-        fill="#111"
-      />
-
-      <circle
-        cx="20"
-        cy="20"
-        r="6"
-        fill="#333"
-      />
-
-      <circle
-        cx="20"
-        cy="20"
-        r="4"
-        fill="url(#wh)"
-      />
-
-    </g>
-  </g>
-
-
-  <!-- ========================================================= -->
-  <!-- POKÉMON 2 : PIKACHU STYLE -->
-  <!-- ========================================================= -->
-
-  <g transform="translate(155,7)" filter="url(#glowYellow)">
-    <g class="float2">
-
-      <!-- ears -->
-      <path
-        d="M12 20 L4 3 L15 9 Z"
-        fill="#F5C518"
-        stroke="#111"
-        stroke-width="1"
-      />
-
-      <path
-        d="M28 20 L36 3 L25 9 Z"
-        fill="#F5C518"
-        stroke="#111"
-        stroke-width="1"
-      />
-
-      <!-- body -->
-      <ellipse
-        cx="20"
-        cy="28"
-        rx="13"
-        ry="15"
-        fill="#F5C518"
-        stroke="#111"
-        stroke-width="1"
-      />
-
-      <!-- cheeks -->
-      <circle
-        cx="10"
-        cy="27"
-        r="3"
-        fill="#FF4444"
-      />
-
-      <circle
-        cx="30"
-        cy="27"
-        r="3"
-        fill="#FF4444"
-      />
-
-      <!-- eyes -->
-      <circle cx="15" cy="22" r="1.8" fill="#111"/>
-      <circle cx="25" cy="22" r="1.8" fill="#111"/>
-
-      <!-- tail -->
-      <path
-        d="M33 35 L40 28 L36 39 L43 43 L34 44"
-        fill="#F5C518"
-        stroke="#111"
-        stroke-width="1"
-      />
-
-    </g>
-  </g>
-
-
-  <!-- ========================================================= -->
-  <!-- POKÉBALL 3 -->
-  <!-- ========================================================= -->
-
-  <g transform="translate(265,10)" filter="url(#glowBlue)">
-    <g class="float3">
-
-      <path
-        d="M 0,20 A 20,20 0 0,1 40,20 Z"
-        fill="url(#r3)"
-      />
-
-      <path
-        d="M 0,20 A 20,20 0 0,0 40,20 Z"
-        fill="url(#wh)"
-      />
-
-      <rect
-        x="0"
-        y="18"
-        width="40"
-        height="4"
-        fill="#111"
-      />
-
-      <circle
-        cx="20"
-        cy="20"
-        r="6"
-        fill="#333"
-      />
-
-      <circle
-        cx="20"
-        cy="20"
-        r="4"
-        fill="url(#wh)"
-      />
-
-    </g>
-  </g>
-
-
-  <!-- ========================================================= -->
-  <!-- POKÉMON 4 : BULBASAUR STYLE -->
-  <!-- ========================================================= -->
-
-  <g transform="translate(375,6)" filter="url(#glowGreen)">
-    <g class="float4">
-
-      <!-- bulb -->
-      <path
-        d="M20 3
-           C12 5 7 11 9 18
-           C10 23 14 25 20 23
-           C26 25 30 23 31 18
-           C33 11 28 5 20 3Z"
-        fill="#4CAF50"
-        stroke="#111"
-        stroke-width="1"
-      />
-
-      <!-- body -->
-      <ellipse
-        cx="20"
-        cy="32"
-        rx="15"
-        ry="12"
-        fill="#4CAF50"
-        stroke="#111"
-        stroke-width="1"
-      />
-
-      <!-- eyes -->
-      <circle cx="15" cy="29" r="2" fill="#111"/>
-      <circle cx="25" cy="29" r="2" fill="#111"/>
-
-      <!-- legs -->
-      <path
-        d="M9 38 L5 43"
-        stroke="#111"
-        stroke-width="2"
-        stroke-linecap="round"
-      />
-
-      <path
-        d="M31 38 L35 43"
-        stroke="#111"
-        stroke-width="2"
-        stroke-linecap="round"
-      />
-
-    </g>
-  </g>
-
-
-  <!-- ========================================================= -->
-  <!-- POKÉBALL 5 -->
-  <!-- ========================================================= -->
-
-  <g transform="translate(485,10)" filter="url(#glowPurple)">
-    <g class="float5">
-
-      <path
-        d="M 0,20 A 20,20 0 0,1 40,20 Z"
-        fill="url(#r5)"
-      />
-
-      <path
-        d="M 0,20 A 20,20 0 0,0 40,20 Z"
-        fill="url(#wh)"
-      />
-
-      <rect
-        x="0"
-        y="18"
-        width="40"
-        height="4"
-        fill="#111"
-      />
-
-      <circle
-        cx="20"
-        cy="20"
-        r="6"
-        fill="#333"
-      />
-
-      <circle
-        cx="20"
-        cy="20"
-        r="4"
-        fill="url(#wh)"
-      />
-
-    </g>
-  </g>
-
-
-  <!-- ========================================================= -->
-  <!-- POKÉMON 6 : CHARMANDER STYLE -->
-  <!-- ========================================================= -->
-
-  <g transform="translate(595,7)" filter="url(#glowOrange)">
-    <g class="float6">
-
-      <!-- tail -->
-      <path
-        d="M30 34
-           C42 37 42 25 34 22
-           C40 25 44 19 39 14
-           C45 21 42 35 31 38Z"
-        fill="#FF8A3D"
-        stroke="#111"
-        stroke-width="1"
-      />
-
-      <!-- body -->
-      <ellipse
-        cx="20"
-        cy="29"
-        rx="12"
-        ry="15"
-        fill="#FF8A3D"
-        stroke="#111"
-        stroke-width="1"
-      />
-
-      <!-- head -->
-      <circle
-        cx="20"
-        cy="17"
-        r="10"
-        fill="#FF8A3D"
-        stroke="#111"
-        stroke-width="1"
-      />
-
-      <!-- eyes -->
-      <circle cx="16" cy="16" r="1.5" fill="#111"/>
-      <circle cx="24" cy="16" r="1.5" fill="#111"/>
-
-      <!-- flame -->
-      <path
-        d="M20 4
-           C16 1 19 -2 22 2
-           C26 5 24 8 20 10
-           C17 8 17 6 20 4Z"
-        fill="#FF4444"
-        stroke="#111"
-        stroke-width="0.8"
-      />
-
-    </g>
-  </g>
-
-
-  <!-- ========================================================= -->
-  <!-- POKÉBALL 7 -->
-  <!-- ========================================================= -->
-
-  <g transform="translate(705,10)" filter="url(#glowRed)">
-    <g class="float1">
-
-      <path
-        d="M 0,20 A 20,20 0 0,1 40,20 Z"
-        fill="url(#r1)"
-      />
-
-      <path
-        d="M 0,20 A 20,20 0 0,0 40,20 Z"
-        fill="url(#wh)"
-      />
-
-      <rect
-        x="0"
-        y="18"
-        width="40"
-        height="4"
-        fill="#111"
-      />
-
-      <circle
-        cx="20"
-        cy="20"
-        r="6"
-        fill="#333"
-      />
-
-      <circle
-        cx="20"
-        cy="20"
-        r="4"
-        fill="url(#wh)"
-      />
-
-    </g>
-  </g>
-
-
-  <!-- ========================================================= -->
-  <!-- SMALL POKÉMON SPARKLES -->
-  <!-- ========================================================= -->
+  <!-- ═══════════════════════════════════════
+       TOP LEFT LABEL
+  ═══════════════════════════════════════ -->
 
   <text
-    x="105"
-    y="48"
-    font-family="'Courier New',monospace"
-    font-size="10"
-    fill="#F5C518"
-    class="spark"
-  >✦</text>
-
-  <text
-    x="215"
-    y="17"
-    font-family="'Courier New',monospace"
-    font-size="8"
-    fill="#61DAFB"
-    class="spark"
-  >✦</text>
-
-  <text
-    x="325"
-    y="49"
-    font-family="'Courier New',monospace"
+    x="28"
+    y="27"
+    font-family="'Courier New', monospace"
     font-size="9"
-    fill="#4CAF50"
-    class="spark"
-  >✦</text>
+    letter-spacing="2"
+    fill="#00E5FF">
 
-  <text
-    x="435"
-    y="16"
-    font-family="'Courier New',monospace"
-    font-size="8"
-    fill="#A855F7"
-    class="spark"
-  >✦</text>
+    RKIVLN // NIGHT DRIVE
 
-  <text
-    x="545"
-    y="49"
-    font-family="'Courier New',monospace"
-    font-size="10"
-    fill="#F5C518"
-    class="spark"
-  >✦</text>
-
-  <text
-    x="665"
-    y="16"
-    font-family="'Courier New',monospace"
-    font-size="8"
-    fill="#FF8A3D"
-    class="spark"
-  >✦</text>
-
-
-  <!-- ========================================================= -->
-  <!-- FOOTER QUOTE -->
-  <!-- ========================================================= -->
-
-  <text
-    x="430"
-    y="90"
-    font-family="'Courier New',monospace"
-    font-size="11"
-    font-weight="700"
-    fill="#F5C518"
-    text-anchor="middle"
-    letter-spacing="1"
-    class="quote"
-  >
-    ✦ GOTTA BUILD 'EM ALL · RKIVLN · VOLT MEDIA · 2026 ✦
   </text>
 
 
-  <!-- Bottom decorative line -->
+  <!-- ═══════════════════════════════════════
+       MAIN FOOTER TEXT
+  ═══════════════════════════════════════ -->
 
-  <line
-    x1="40"
-    y1="103"
-    x2="820"
-    y2="103"
-    stroke="#F5C518"
-    stroke-width="0.5"
-    opacity="0.25"
+  <text
+    x="430"
+    y="117"
+    text-anchor="middle"
+    font-family="'Courier New', monospace"
+    font-size="13"
+    font-weight="700"
+    letter-spacing="3"
+    fill="#FFFFFF"
+    filter="url(#textGlow)">
+
+    BUILD • SHIP • REPEAT
+
+  </text>
+
+
+  <!-- ═══════════════════════════════════════
+       STATUS
+  ═══════════════════════════════════════ -->
+
+  <text
+    x="832"
+    y="27"
+    text-anchor="end"
+    font-family="'Courier New', monospace"
+    font-size="8"
+    letter-spacing="1.5"
+    fill="#FF3CAC">
+
+    2026 / ONLINE
+
+  </text>
+
+
+  <!-- ═══════════════════════════════════════
+       MOVING NEON SCAN LINE
+  ═══════════════════════════════════════ -->
+
+  <rect
+    class="scan"
+    x="-70"
+    y="97"
+    width="70"
+    height="1.5"
+    fill="#FF3CAC"
   />
 
 </svg>
