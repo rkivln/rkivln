@@ -65,7 +65,7 @@
 
 [![Email](https://img.shields.io/badge/EMAIL-GOKULAN-00E5FF?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=11111B)](mailto:gokulan.rkivln@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-GOKULAN-A855F7?style=for-the-badge&logo=linkedin&logoColor=FFFFFF&labelColor=11111B)](https://linkedin.com/in/gokulan)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-GOKULAN-A855F7?style=for-the-badge&logo=linkedin&logoColor=FFFFFF&labelColor=11111B)](https://linkedin.com/in/a-gokulan)
 
 <br/>
 <br/>
