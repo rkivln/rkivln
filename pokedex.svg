@@ -1,127 +1,152 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 230" width="860" height="230">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 860 230"
+     width="860"
+     height="230">
+
   <defs>
-    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1A1A2E"/>
-      <stop offset="100%" stop-color="#0F0F1A"/>
+
+    <!-- VICE CITY NIGHT -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080914"/>
+      <stop offset="48%" stop-color="#17132D"/>
+      <stop offset="100%" stop-color="#321344"/>
     </linearGradient>
 
-    <linearGradient id="card1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1A3A5C"/>
-      <stop offset="100%" stop-color="#0D1B2E"/>
+    <!-- CARD GRADIENTS -->
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#092F42"/>
+      <stop offset="100%" stop-color="#081722"/>
     </linearGradient>
 
-    <linearGradient id="card2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2D1B4E"/>
-      <stop offset="100%" stop-color="#150D2A"/>
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#382050"/>
+      <stop offset="100%" stop-color="#170E27"/>
     </linearGradient>
 
-    <linearGradient id="card3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1A3A1A"/>
-      <stop offset="100%" stop-color="#0D1E0D"/>
+    <linearGradient id="card3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#123C36"/>
+      <stop offset="100%" stop-color="#0A211E"/>
     </linearGradient>
 
-    <linearGradient id="card4" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#3A1A1A"/>
-      <stop offset="100%" stop-color="#1E0D0D"/>
+    <linearGradient id="card4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#48202F"/>
+      <stop offset="100%" stop-color="#220D19"/>
     </linearGradient>
 
-    <filter id="cardGlow1" x="-10%" y="-10%" width="120%" height="120%">
+    <!-- NEON -->
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#61DAFB"/>
+    </linearGradient>
+
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF3CAC"/>
+      <stop offset="100%" stop-color="#FF72D2"/>
+    </linearGradient>
+
+    <!-- GLOWS -->
+    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
-      <feFlood flood-color="#61DAFB" flood-opacity="0.4" result="c"/>
-      <feComposite in="c" in2="b" operator="in" result="shadow"/>
+      <feFlood flood-color="#00E5FF" flood-opacity=".35" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="g"/>
       <feMerge>
-        <feMergeNode in="shadow"/>
+        <feMergeNode in="g"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="cardGlow2" x="-10%" y="-10%" width="120%" height="120%">
+    <filter id="glowPink" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
-      <feFlood flood-color="#A855F7" flood-opacity="0.4" result="c"/>
-      <feComposite in="c" in2="b" operator="in" result="shadow"/>
+      <feFlood flood-color="#FF3CAC" flood-opacity=".35" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="g"/>
       <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="cardGlow3" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
-      <feFlood flood-color="#4CAF50" flood-opacity="0.4" result="c"/>
-      <feComposite in="c" in2="b" operator="in" result="shadow"/>
-      <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="cardGlow4" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
-      <feFlood flood-color="#FF4444" flood-opacity="0.4" result="c"/>
-      <feComposite in="c" in2="b" operator="in" result="shadow"/>
-      <feMerge>
-        <feMergeNode in="shadow"/>
+        <feMergeNode in="g"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <style>
-      .card {
-        animation: cardFloat 3s ease-in-out infinite;
+
+      .card1a {
+        animation: float1 3.4s ease-in-out infinite;
       }
 
-      .c1 { animation-delay: 0s; }
-      .c2 { animation-delay: 0.75s; }
-      .c3 { animation-delay: 1.5s; }
-      .c4 { animation-delay: 2.25s; }
-
-      .border-pulse {
-        animation: borderPulse 3s ease-in-out infinite;
+      .card2a {
+        animation: float2 3.8s ease-in-out infinite .4s;
       }
 
-      .hp-bar {
-        animation: hpFill 1.5s ease-out both;
-        transform-box: fill-box;
-        transform-origin: left center;
+      .card3a {
+        animation: float1 3.6s ease-in-out infinite .8s;
       }
 
-      .hp1 { animation-delay: 0.2s; }
-      .hp2 { animation-delay: 0.4s; }
-      .hp3 { animation-delay: 0.6s; }
-      .hp4 { animation-delay: 0.8s; }
+      .card4a {
+        animation: float2 4s ease-in-out infinite 1.2s;
+      }
 
-      @keyframes cardFloat {
+      .status {
+        animation: blink 2s ease-in-out infinite;
+      }
+
+      .scan {
+        animation: scan 5s linear infinite;
+      }
+
+      @keyframes float1 {
         0%,100% {
           transform: translateY(0);
         }
 
         50% {
-          transform: translateY(-5px);
+          transform: translateY(-4px);
         }
       }
 
-      @keyframes borderPulse {
+      @keyframes float2 {
         0%,100% {
-          stroke: #EE1515;
-          stroke-opacity: 0.6;
+          transform: translateY(0);
         }
 
         50% {
-          stroke: #FF4444;
-          stroke-opacity: 1;
+          transform: translateY(4px);
         }
       }
 
-      @keyframes hpFill {
+      @keyframes blink {
+        0%,100% {
+          opacity: .45;
+        }
+
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes scan {
         from {
-          transform: scaleX(0);
+          transform: translateX(-180px);
+          opacity: 0;
+        }
+
+        15% {
+          opacity: .35;
+        }
+
+        50% {
+          opacity: .7;
+        }
+
+        85% {
+          opacity: .35;
         }
 
         to {
-          transform: scaleX(1);
+          transform: translateX(1000px);
+          opacity: 0;
         }
       }
+
     </style>
+
   </defs>
 
 
@@ -130,702 +155,822 @@
   <rect
     width="860"
     height="230"
-    fill="url(#bg3)"
-    rx="14"
+    rx="16"
+    fill="url(#bg)"
+  />
+
+
+  <!-- SUBTLE GRID -->
+
+  <g
+    stroke="#00E5FF"
+    stroke-width=".5"
+    opacity=".055">
+
+    <path d="M20 45 H840"/>
+    <path d="M20 90 H840"/>
+    <path d="M20 135 H840"/>
+    <path d="M20 180 H840"/>
+    <path d="M20 215 H840"/>
+
+    <path d="M70 15 V215"/>
+    <path d="M140 15 V215"/>
+    <path d="M210 15 V215"/>
+    <path d="M280 15 V215"/>
+    <path d="M350 15 V215"/>
+    <path d="M420 15 V215"/>
+    <path d="M490 15 V215"/>
+    <path d="M560 15 V215"/>
+    <path d="M630 15 V215"/>
+    <path d="M700 15 V215"/>
+    <path d="M770 15 V215"/>
+
+  </g>
+
+
+  <!-- NEON BORDER -->
+
+  <rect
+    x="2"
+    y="2"
+    width="856"
+    height="226"
+    rx="15"
+    fill="none"
+    stroke="#FF3CAC"
+    stroke-width="2"
+    filter="url(#glowPink)"
   />
 
   <rect
-    width="858"
-    height="228"
-    x="1"
-    y="1"
+    x="9"
+    y="9"
+    width="842"
+    height="212"
+    rx="11"
     fill="none"
-    stroke="#EE1515"
-    stroke-width="1.5"
-    rx="13"
-    class="border-pulse"
+    stroke="#00E5FF"
+    stroke-width=".7"
+    opacity=".4"
   />
 
 
-  <!-- TITLE -->
+  <!-- HEADER -->
+
+  <text
+    x="30"
+    y="27"
+    font-family="'Courier New',monospace"
+    font-size="9"
+    font-weight="700"
+    letter-spacing="3"
+    fill="#00E5FF">
+
+    RKIVLN // PROJECT DATABASE
+
+  </text>
+
+  <text
+    x="830"
+    y="27"
+    text-anchor="end"
+    font-family="'Courier New',monospace"
+    font-size="8"
+    letter-spacing="2"
+    fill="#FF3CAC">
+
+    04 ACTIVE PROJECTS
+
+  </text>
 
   <text
     x="430"
-    y="26"
-    font-family="'Courier New',monospace"
-    font-size="13"
-    font-weight="900"
-    fill="#F5C518"
+    y="50"
     text-anchor="middle"
-    letter-spacing="5"
-  >
-    ◉ POKÉDEX  /  MY PROJECTS ◉
+    font-family="'Courier New',monospace"
+    font-size="12"
+    font-weight="900"
+    letter-spacing="4"
+    fill="#FFFFFF">
+
+    PROJECTS // MISSION SELECT
+
   </text>
 
   <line
     x1="30"
-    y1="34"
+    y1="59"
     x2="830"
-    y2="34"
-    stroke="#F5C518"
-    stroke-width="0.5"
-    opacity="0.3"
+    y2="59"
+    stroke="#FFFFFF"
+    stroke-width=".5"
+    opacity=".13"
   />
 
 
-  <!-- ========================================================= -->
-  <!-- CARD 1 : AI FAKE IDENTITY -->
-  <!-- ========================================================= -->
+  <!-- PROJECT 01 -->
 
-  <g transform="translate(20,46)" filter="url(#cardGlow1)">
-    <g class="card c1">
+  <g
+    transform="translate(20,70)"
+    filter="url(#glowCyan)">
+
+    <g class="card1a">
 
       <rect
         width="190"
-        height="170"
-        rx="10"
+        height="125"
+        rx="11"
         fill="url(#card1)"
+        stroke="#00E5FF"
+        stroke-width="1.3"
       />
 
       <rect
-        width="190"
-        height="170"
-        rx="10"
-        fill="none"
-        stroke="#61DAFB"
-        stroke-width="1.5"
+        x="1"
+        y="1"
+        width="188"
+        height="4"
+        rx="3"
+        fill="#00E5FF"
       />
 
-      <!-- TYPE -->
+      <text
+        x="12"
+        y="22"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        font-weight="700"
+        letter-spacing="1.5"
+        fill="#00E5FF">
+
+        MISSION 01
+
+      </text>
+
+      <text
+        x="178"
+        y="22"
+        text-anchor="end"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#6F8A98">
+
+        AI / ML
+
+      </text>
+
+
+      <!-- ICON -->
 
       <rect
-        x="8"
-        y="8"
-        width="50"
-        height="16"
+        x="12"
+        y="34"
+        width="42"
+        height="42"
         rx="8"
-        fill="#61DAFB"
-        opacity="0.3"
-      />
-
-      <rect
-        x="8"
-        y="8"
-        width="50"
-        height="16"
-        rx="8"
-        fill="none"
-        stroke="#61DAFB"
-        stroke-width="1"
+        fill="#00E5FF"
+        opacity=".09"
+        stroke="#00E5FF"
+        stroke-width=".7"
       />
 
       <text
         x="33"
-        y="20"
-        font-family="'Courier New',monospace"
-        font-size="9"
-        font-weight="700"
-        fill="#61DAFB"
+        y="61"
         text-anchor="middle"
-      >
-        WATER
+        font-family="Arial,sans-serif"
+        font-size="23"
+        fill="#00E5FF">
+
+        ID
+
       </text>
 
-      <!-- NUMBER -->
+
+      <!-- TITLE -->
 
       <text
-        x="182"
-        y="20"
+        x="66"
+        y="48"
         font-family="'Courier New',monospace"
-        font-size="9"
-        fill="#61DAFB"
-        text-anchor="end"
-        opacity="0.7"
-      >
-        #001
-      </text>
-
-      <!-- ICON -->
-
-      <text
-        x="95"
-        y="88"
-        font-size="44"
-        text-anchor="middle"
-      >
-        🪪
-      </text>
-
-      <!-- HP -->
-
-      <text
-        x="10"
-        y="118"
-        font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#AAAACC"
-      >
-        HP
-      </text>
-
-      <rect
-        x="28"
-        y="110"
-        width="130"
-        height="8"
-        rx="4"
-        fill="#0D1B2E"
-      />
-
-      <rect
-        x="28"
-        y="110"
-        width="124"
-        height="8"
-        rx="4"
-        fill="#61DAFB"
-        class="hp-bar hp1"
-      />
-
-      <text
-        x="162"
-        y="118"
-        font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#61DAFB"
-      >
-        95
-      </text>
-
-      <!-- NAME -->
-
-      <text
-        x="95"
-        y="136"
-        font-family="'Courier New',monospace"
-        font-size="13"
+        font-size="11"
         font-weight="900"
-        fill="#FFFFFF"
-        text-anchor="middle"
-      >
-        FAKE ID SCREEN
+        fill="#FFFFFF">
+
+        FAKE ID
+
       </text>
 
       <text
-        x="95"
-        y="150"
+        x="66"
+        y="62"
         font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#8899BB"
-        text-anchor="middle"
-      >
+        font-size="11"
+        font-weight="900"
+        fill="#FFFFFF">
+
+        SCREENING
+
+      </text>
+
+      <text
+        x="66"
+        y="76"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#7DA5B5">
+
         AI Identity Verification
+
       </text>
 
+
+      <!-- TECH -->
+
       <text
-        x="95"
-        y="162"
+        x="12"
+        y="94"
         font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#8899BB"
-        text-anchor="middle"
-      >
-        AI/ML · OCR · CV · Security
+        font-size="7"
+        fill="#7DA5B5">
+
+        OCR · CV · AI · SECURITY
+
+      </text>
+
+
+      <!-- STATUS -->
+
+      <circle
+        cx="15"
+        cy="111"
+        r="3"
+        fill="#00E5FF"
+        class="status"
+      />
+
+      <text
+        x="24"
+        y="114"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#00E5FF">
+
+        IN DEVELOPMENT
+
       </text>
 
     </g>
+
   </g>
 
 
-  <!-- ========================================================= -->
-  <!-- CARD 2 : PROJECT A.U.R.A. -->
-  <!-- ========================================================= -->
+  <!-- PROJECT 02 -->
 
-  <g transform="translate(230,46)" filter="url(#cardGlow2)">
-    <g class="card c2">
+  <g
+    transform="translate(230,70)"
+    filter="url(#glowPink)">
+
+    <g class="card2a">
 
       <rect
         width="190"
-        height="170"
-        rx="10"
+        height="125"
+        rx="11"
         fill="url(#card2)"
+        stroke="#FF3CAC"
+        stroke-width="1.3"
       />
 
       <rect
-        width="190"
-        height="170"
-        rx="10"
-        fill="none"
-        stroke="#F5C518"
-        stroke-width="1.5"
-      />
-
-      <!-- TYPE -->
-
-      <rect
-        x="8"
-        y="8"
-        width="66"
-        height="16"
-        rx="8"
-        fill="#F5C518"
-        opacity="0.3"
-      />
-
-      <rect
-        x="8"
-        y="8"
-        width="66"
-        height="16"
-        rx="8"
-        fill="none"
-        stroke="#F5C518"
-        stroke-width="1"
+        x="1"
+        y="1"
+        width="188"
+        height="4"
+        rx="3"
+        fill="#FF3CAC"
       />
 
       <text
-        x="41"
-        y="20"
+        x="12"
+        y="22"
         font-family="'Courier New',monospace"
-        font-size="9"
+        font-size="8"
         font-weight="700"
-        fill="#F5C518"
-        text-anchor="middle"
-      >
-        ELECTRIC
-      </text>
+        letter-spacing="1.5"
+        fill="#FF3CAC">
 
-      <!-- NUMBER -->
+        MISSION 02
+
+      </text>
 
       <text
-        x="182"
-        y="20"
-        font-family="'Courier New',monospace"
-        font-size="9"
-        fill="#F5C518"
+        x="178"
+        y="22"
         text-anchor="end"
-        opacity="0.7"
-      >
-        #002
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#9B7896">
+
+        EDGE AI
+
       </text>
+
 
       <!-- ICON -->
 
-      <text
-        x="95"
-        y="88"
-        font-size="44"
-        text-anchor="middle"
-      >
-        🤖
-      </text>
-
-      <!-- HP -->
-
-      <text
-        x="10"
-        y="118"
-        font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#AAAACC"
-      >
-        HP
-      </text>
-
       <rect
-        x="28"
-        y="110"
-        width="130"
-        height="8"
-        rx="4"
-        fill="#150D2A"
+        x="12"
+        y="34"
+        width="42"
+        height="42"
+        rx="8"
+        fill="#FF3CAC"
+        opacity=".09"
+        stroke="#FF3CAC"
+        stroke-width=".7"
       />
 
-      <rect
-        x="28"
-        y="110"
-        width="127"
-        height="8"
-        rx="4"
-        fill="#F5C518"
-        class="hp-bar hp2"
+      <circle
+        cx="33"
+        cy="55"
+        r="12"
+        fill="none"
+        stroke="#FF3CAC"
+        stroke-width="1.5"
       />
 
-      <text
-        x="162"
-        y="118"
-        font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#F5C518"
-      >
-        98
-      </text>
+      <circle
+        cx="33"
+        cy="55"
+        r="4"
+        fill="#FF3CAC"
+      />
 
-      <!-- NAME -->
+      <path
+        d="
+          M33 39 V34
+          M33 76 V71
+          M17 55 H12
+          M54 55 H49
+        "
+        stroke="#FF3CAC"
+        stroke-width="1"
+      />
+
+
+      <!-- TITLE -->
 
       <text
-        x="95"
-        y="136"
+        x="66"
+        y="48"
         font-family="'Courier New',monospace"
-        font-size="13"
+        font-size="11"
         font-weight="900"
-        fill="#FFFFFF"
-        text-anchor="middle"
-      >
-        PROJECT A.U.R.A.
+        fill="#FFFFFF">
+
+        PROJECT
+
       </text>
 
       <text
-        x="95"
-        y="150"
+        x="66"
+        y="62"
         font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#998877"
-        text-anchor="middle"
-      >
-        Legacy Factory Intelligence
+        font-size="11"
+        font-weight="900"
+        fill="#FFFFFF">
+
+        A.U.R.A.
+
       </text>
 
       <text
-        x="95"
-        y="162"
+        x="66"
+        y="76"
         font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#998877"
-        text-anchor="middle"
-      >
-        Edge AI · IoT · RAG
+        font-size="7"
+        fill="#A887A3">
+
+        Factory Intelligence
+
+      </text>
+
+
+      <!-- TECH -->
+
+      <text
+        x="12"
+        y="94"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#A887A3">
+
+        EDGE AI · IoT · RAG
+
+      </text>
+
+
+      <!-- STATUS -->
+
+      <circle
+        cx="15"
+        cy="111"
+        r="3"
+        fill="#FF3CAC"
+        class="status"
+      />
+
+      <text
+        x="24"
+        y="114"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#FF3CAC">
+
+        ACTIVE
+
       </text>
 
     </g>
+
   </g>
 
 
-  <!-- ========================================================= -->
-  <!-- CARD 3 : ALTUSMATE -->
-  <!-- ========================================================= -->
+  <!-- PROJECT 03 -->
 
-  <g transform="translate(440,46)" filter="url(#cardGlow3)">
-    <g class="card c3">
+  <g
+    transform="translate(440,70)"
+    filter="url(#glowCyan)">
+
+    <g class="card3a">
 
       <rect
         width="190"
-        height="170"
-        rx="10"
+        height="125"
+        rx="11"
         fill="url(#card3)"
+        stroke="#4DDB9A"
+        stroke-width="1.3"
       />
 
       <rect
-        width="190"
-        height="170"
-        rx="10"
-        fill="none"
-        stroke="#4CAF50"
-        stroke-width="1.5"
-      />
-
-      <!-- TYPE -->
-
-      <rect
-        x="8"
-        y="8"
-        width="50"
-        height="16"
-        rx="8"
-        fill="#4CAF50"
-        opacity="0.3"
-      />
-
-      <rect
-        x="8"
-        y="8"
-        width="50"
-        height="16"
-        rx="8"
-        fill="none"
-        stroke="#4CAF50"
-        stroke-width="1"
+        x="1"
+        y="1"
+        width="188"
+        height="4"
+        rx="3"
+        fill="#4DDB9A"
       />
 
       <text
-        x="33"
-        y="20"
+        x="12"
+        y="22"
         font-family="'Courier New',monospace"
-        font-size="9"
+        font-size="8"
         font-weight="700"
-        fill="#4CAF50"
-        text-anchor="middle"
-      >
-        GRASS
-      </text>
+        letter-spacing="1.5"
+        fill="#4DDB9A">
 
-      <!-- NUMBER -->
+        MISSION 03
+
+      </text>
 
       <text
-        x="182"
-        y="20"
-        font-family="'Courier New',monospace"
-        font-size="9"
-        fill="#4CAF50"
+        x="178"
+        y="22"
         text-anchor="end"
-        opacity="0.7"
-      >
-        #003
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#729C8C">
+
+        EDTECH
+
       </text>
+
 
       <!-- ICON -->
 
-      <text
-        x="95"
-        y="88"
-        font-size="44"
-        text-anchor="middle"
-      >
-        🎓
-      </text>
-
-      <!-- HP -->
-
-      <text
-        x="10"
-        y="118"
-        font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#AAAACC"
-      >
-        HP
-      </text>
-
       <rect
-        x="28"
-        y="110"
-        width="130"
-        height="8"
-        rx="4"
-        fill="#0D1E0D"
+        x="12"
+        y="34"
+        width="42"
+        height="42"
+        rx="8"
+        fill="#4DDB9A"
+        opacity=".09"
+        stroke="#4DDB9A"
+        stroke-width=".7"
       />
 
-      <rect
-        x="28"
-        y="110"
-        width="120"
-        height="8"
-        rx="4"
-        fill="#4CAF50"
-        class="hp-bar hp3"
+      <path
+        d="
+          M19 47
+          L33 40
+          L47 47
+          L33 54
+          Z
+
+          M23 51 V61
+          M43 51 V61
+          M26 61 H40
+        "
+        fill="none"
+        stroke="#4DDB9A"
+        stroke-width="1.6"
+        stroke-linejoin="round"
       />
 
-      <text
-        x="162"
-        y="118"
-        font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#4CAF50"
-      >
-        92
-      </text>
 
-      <!-- NAME -->
+      <!-- TITLE -->
 
       <text
-        x="95"
-        y="136"
+        x="66"
+        y="48"
         font-family="'Courier New',monospace"
-        font-size="13"
+        font-size="11"
         font-weight="900"
-        fill="#FFFFFF"
-        text-anchor="middle"
-      >
+        fill="#FFFFFF">
+
         ALTUSMATE
+
       </text>
 
       <text
-        x="95"
-        y="150"
+        x="66"
+        y="62"
         font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#88AA88"
-        text-anchor="middle"
-      >
-        Campus EdTech Platform
+        font-size="7"
+        fill="#83AA9D">
+
+        Campus EdTech
+
       </text>
 
       <text
-        x="95"
-        y="162"
+        x="66"
+        y="75"
         font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#88AA88"
-        text-anchor="middle"
-      >
-        React · Node · MongoDB
+        font-size="7"
+        fill="#83AA9D">
+
+        Platform
+
+      </text>
+
+
+      <!-- TECH -->
+
+      <text
+        x="12"
+        y="94"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#83AA9D">
+
+        REACT · NODE · MONGODB
+
+      </text>
+
+
+      <!-- STATUS -->
+
+      <circle
+        cx="15"
+        cy="111"
+        r="3"
+        fill="#4DDB9A"
+        class="status"
+      />
+
+      <text
+        x="24"
+        y="114"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#4DDB9A">
+
+        DEPLOYED
+
       </text>
 
     </g>
+
   </g>
 
 
-  <!-- ========================================================= -->
-  <!-- CARD 4 : ATTENDIFIER -->
-  <!-- ========================================================= -->
+  <!-- PROJECT 04 -->
 
-  <g transform="translate(650,46)" filter="url(#cardGlow4)">
-    <g class="card c4">
+  <g
+    transform="translate(650,70)"
+    filter="url(#glowPink)">
+
+    <g class="card4a">
 
       <rect
         width="190"
-        height="170"
-        rx="10"
+        height="125"
+        rx="11"
         fill="url(#card4)"
+        stroke="#FF6B6B"
+        stroke-width="1.3"
       />
 
       <rect
-        width="190"
-        height="170"
-        rx="10"
-        fill="none"
-        stroke="#FF4444"
-        stroke-width="1.5"
-      />
-
-      <!-- TYPE -->
-
-      <rect
-        x="8"
-        y="8"
-        width="42"
-        height="16"
-        rx="8"
-        fill="#FF4444"
-        opacity="0.3"
-      />
-
-      <rect
-        x="8"
-        y="8"
-        width="42"
-        height="16"
-        rx="8"
-        fill="none"
-        stroke="#FF4444"
-        stroke-width="1"
+        x="1"
+        y="1"
+        width="188"
+        height="4"
+        rx="3"
+        fill="#FF6B6B"
       />
 
       <text
-        x="29"
-        y="20"
+        x="12"
+        y="22"
         font-family="'Courier New',monospace"
-        font-size="9"
+        font-size="8"
         font-weight="700"
-        fill="#FF4444"
-        text-anchor="middle"
-      >
-        FIRE
-      </text>
+        letter-spacing="1.5"
+        fill="#FF6B6B">
 
-      <!-- NUMBER -->
+        MISSION 04
+
+      </text>
 
       <text
-        x="182"
-        y="20"
-        font-family="'Courier New',monospace"
-        font-size="9"
-        fill="#FF4444"
+        x="178"
+        y="22"
         text-anchor="end"
-        opacity="0.7"
-      >
-        #004
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#A67878">
+
+        SYSTEM
+
       </text>
+
 
       <!-- ICON -->
 
-      <text
-        x="95"
-        y="88"
-        font-size="44"
-        text-anchor="middle"
-      >
-        📋
-      </text>
-
-      <!-- HP -->
-
-      <text
-        x="10"
-        y="118"
-        font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#AAAACC"
-      >
-        HP
-      </text>
-
       <rect
-        x="28"
-        y="110"
-        width="130"
-        height="8"
-        rx="4"
-        fill="#1E0D0D"
+        x="12"
+        y="34"
+        width="42"
+        height="42"
+        rx="8"
+        fill="#FF6B6B"
+        opacity=".09"
+        stroke="#FF6B6B"
+        stroke-width=".7"
       />
 
       <rect
-        x="28"
-        y="110"
-        width="114"
-        height="8"
-        rx="4"
-        fill="#FF4444"
-        class="hp-bar hp4"
+        x="21"
+        y="43"
+        width="24"
+        height="24"
+        rx="3"
+        fill="none"
+        stroke="#FF6B6B"
+        stroke-width="1.5"
       />
 
-      <text
-        x="162"
-        y="118"
-        font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#FF4444"
-      >
-        88
-      </text>
+      <path
+        d="
+          M25 49 H41
+          M25 55 H41
+          M25 61 H35
+        "
+        stroke="#FF6B6B"
+        stroke-width="1.5"
+      />
 
-      <!-- NAME -->
+
+      <!-- TITLE -->
 
       <text
-        x="95"
-        y="136"
+        x="66"
+        y="48"
         font-family="'Courier New',monospace"
-        font-size="13"
+        font-size="11"
         font-weight="900"
-        fill="#FFFFFF"
-        text-anchor="middle"
-      >
+        fill="#FFFFFF">
+
         ATTENDIFIER
+
       </text>
 
       <text
-        x="95"
-        y="150"
+        x="66"
+        y="62"
         font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#AA8888"
-        text-anchor="middle"
-      >
-        Smart Attendance System
+        font-size="7"
+        fill="#B08B8B">
+
+        Smart Attendance
+
       </text>
 
       <text
-        x="95"
-        y="162"
+        x="66"
+        y="75"
         font-family="'Courier New',monospace"
-        font-size="8"
-        fill="#AA8888"
-        text-anchor="middle"
-      >
-        React · Node · MongoDB
+        font-size="7"
+        fill="#B08B8B">
+
+        System
+
+      </text>
+
+
+      <!-- TECH -->
+
+      <text
+        x="12"
+        y="94"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#B08B8B">
+
+        REACT · NODE · MONGODB
+
+      </text>
+
+
+      <!-- STATUS -->
+
+      <circle
+        cx="15"
+        cy="111"
+        r="3"
+        fill="#FF6B6B"
+        class="status"
+      />
+
+      <text
+        x="24"
+        y="114"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#FF6B6B">
+
+        BUILDING
+
       </text>
 
     </g>
+
   </g>
+
+
+  <!-- ═══════════════════════════════════════
+       BOTTOM STATUS BAR
+  ═══════════════════════════════════════ -->
+
+  <circle
+    cx="30"
+    cy="215"
+    r="2.5"
+    fill="#00E5FF"
+    class="status"
+  />
+
+  <text
+    x="40"
+    y="218"
+    font-family="'Courier New',monospace"
+    font-size="7"
+    letter-spacing="1.5"
+    fill="#71808F">
+
+    MISSION DATABASE // ONLINE
+
+  </text>
+
+  <text
+    x="830"
+    y="218"
+    text-anchor="end"
+    font-family="'Courier New',monospace"
+    font-size="7"
+    letter-spacing="1.5"
+    fill="#FF3CAC">
+
+    SELECT // BUILD // SHIP
+
+  </text>
+
+
+  <!-- ANIMATED SCAN -->
+
+  <rect
+    class="scan"
+    x="-180"
+    y="59"
+    width="110"
+    height="1"
+    fill="#00E5FF"
+  />
 
 </svg>
