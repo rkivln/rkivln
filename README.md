@@ -1,145 +1,124 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--        GOKULAN ANBALAGAN  ·  POKÉMON EDITION README        -->
-<!--                   github.com/gokulan                       -->
+<!--        GOKULAN ANBALAGAN · VICE CITY EDITION README        -->
+<!--                 github.com/rkivln                           -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ══════════════════════ HERO BANNER ══════════════════════ -->
+<!-- ═══════════════════════ HERO ═════════════════════════════ -->
 
 <img src="banner.svg"
-     alt="Gokulan Anbalagan – Pokémon Trainer Card"
+     alt="Gokulan Anbalagan – Vice City Developer Profile"
      width="860"/>
 
 <br/>
 <br/>
 
-<!-- ═══════════════════ QUICK TYPE BADGES ══════════════════ -->
+<!-- ═══════════════════ TECH STACK ══════════════════════════ -->
 
-![React](https://img.shields.io/badge/React-WATER%20TYPE-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0D1B2E)
-![Next.js](https://img.shields.io/badge/Next.js-NORMAL%20TYPE-FFFFFF?style=for-the-badge&logo=next.js&logoColor=FFFFFF&labelColor=0D0D0D)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-ICE%20TYPE-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8&labelColor=0D1B2E)
-![Python](https://img.shields.io/badge/Python-ELECTRIC%20TYPE-FFD43B?style=for-the-badge&logo=python&logoColor=FFD43B&labelColor=1A1A0D)
-![Figma](https://img.shields.io/badge/Figma-FIRE%20TYPE-F24E1E?style=for-the-badge&logo=figma&logoColor=F24E1E&labelColor=1A0D0D)
-![AWS](https://img.shields.io/badge/AWS-FLYING%20TYPE-FF9900?style=for-the-badge&logo=amazonaws&logoColor=FF9900&labelColor=1A1000)
+![React](https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=11111B)
+![Next.js](https://img.shields.io/badge/NEXT.JS-FFFFFF?style=for-the-badge&logo=next.js&logoColor=white&labelColor=11111B)
+![Node.js](https://img.shields.io/badge/NODE.JS-3C873A?style=for-the-badge&logo=node.js&logoColor=white&labelColor=11111B)
+![MongoDB](https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=11111B)
+![Python](https://img.shields.io/badge/PYTHON-FFD43B?style=for-the-badge&logo=python&logoColor=11111B&labelColor=11111B)
+![Figma](https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=11111B)
 
 <br/>
 <br/>
 
-<!-- ═══════════════════ MOVE SET / SKILLS ══════════════════ -->
+<!-- ═════════════════════ PLAYER PROFILE ════════════════════ -->
 
 <img src="moveset.svg"
-     alt="Move Set – Tech Skills"
+     alt="Gokulan Player Profile and Skills"
      width="860"/>
 
 <br/>
 <br/>
 
-<!-- ════════════════════ POKÉDEX / PROJECTS ════════════════ -->
+<!-- ═══════════════════════ MISSIONS ════════════════════════ -->
 
 <img src="pokedex.svg"
-     alt="Pokédex – Projects"
+     alt="Gokulan Missions and Projects"
      width="860"/>
 
 <br/>
 <br/>
 
+<!-- ═════════════════════ GITHUB STATS ══════════════════════ -->
 
-<br/>
+<h2>▰ DEVELOPER STATS</h2>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rkivln&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=EE1515&ring=F5C518&fire=EE1515&currStreakLabel=F5C518&border_radius=10"
-     alt="Streak Stats"
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rkivln&theme=radical&hide_border=true&background=11111B&stroke=FF3CAC&ring=00E5FF&fire=FF3CAC&currStreakLabel=00E5FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888&border_radius=8"
+     alt="GitHub Streak"
      width="600"/>
 
 <br/>
 <br/>
 
-<!-- ═══════════════════ CONTRIBUTION MAP ═══════════════════ -->
+<!-- ═════════════════════ CONTRIBUTIONS ═════════════════════ -->
 
-
-
-<br/>
-<br/>
-
-
+<h2>▰ ACTIVITY MAP</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)"
-          srcset="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake.svg"/>
-  <img alt="Contribution Snake"
-       src="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake-dark.svg"
-       width="860"/>
+
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake-dark.svg"/>
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake.svg"/>
+
+  <img
+    alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/gokulan/gokulan/output/github-contribution-grid-snake-dark.svg"
+    width="860"/>
+
 </picture>
 
 <br/>
 <br/>
 
+<!-- ═══════════════════════ SOCIALS ═════════════════════════ -->
 
+<h2>▰ CONTACT</h2>
+
+[![GitHub](https://img.shields.io/badge/GITHUB-RKIVLN-FFFFFF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=11111B)](https://github.com/rkivln)
+
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-@RKIVLN-FF3CAC?style=for-the-badge&logo=instagram&logoColor=FFFFFF&labelColor=11111B)](https://instagram.com/rkivln)
+
+[![Email](https://img.shields.io/badge/EMAIL-GOKULAN-00E5FF?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=11111B)](mailto:gokulan.rkivln@gmail.com)
+
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-GOKULAN-A855F7?style=for-the-badge&logo=linkedin&logoColor=FFFFFF&labelColor=11111B)](https://linkedin.com/in/gokulan)
 
 <br/>
 <br/>
 
-
-
-[![GitHub](https://img.shields.io/badge/GitHub-gokulan-F5C518?style=for-the-badge&logo=github&logoColor=F5C518&labelColor=0D0D1A)](https://github.com/rkivln)
-[![Instagram](https://img.shields.io/badge/Instagram-@rkivln-EE1515?style=for-the-badge&logo=instagram&logoColor=EE1515&labelColor=0D0D1A)](https://instagram.com/rkivln)
-[![Email](https://img.shields.io/badge/Email-gokulan.rkivln-61DAFB?style=for-the-badge&logo=gmail&logoColor=61DAFB&labelColor=0D0D1A)](mailto:gokulan.rkivln@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokulan-A855F7?style=for-the-badge&logo=linkedin&logoColor=A855F7&labelColor=0D0D1A)](https://linkedin.com/in/gokulan)
-
-<br/>
-<br/>
-
+<!-- ═══════════════════════ FOOTER ══════════════════════════ -->
 
 <img src="footer.svg"
-     alt="Footer – Gotta Build Em All"
+     alt="Vice City – Developer Footer"
      width="860"/>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=rkivln&color=EE1515&style=for-the-badge&label=TRAINERS+VISITED&labelColor=0D0D1A)
+![Profile Views](https://komarev.com/ghpvc/?username=rkivln&color=FF3CAC&style=for-the-badge&label=VISITORS&labelColor=11111B)
 
 </div>
 
+
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--  SETUP INSTRUCTIONS (read this block, then delete it)      -->
+<!--                     SETUP                                   -->
 <!--                                                            -->
-<!--  1. Create a repo named exactly:  gokulan/gokulan          -->
-<!--     (must match your GitHub username)                      -->
+<!--  Repository: rkivln/rkivln                                -->
 <!--                                                            -->
-<!--  2. Upload these files to the ROOT of that repo:           -->
-<!--       README.md   ← this file                              -->
-<!--       banner.svg                                           -->
-<!--       moveset.svg                                          -->
-<!--       pokedex.svg                                          -->
-<!--       footer.svg                                           -->
+<!--  Files:                                                    -->
 <!--                                                            -->
-<!--  3. Replace every "gokulan" in badge/stats URLs with       -->
-<!--     your actual GitHub username if different.              -->
+<!--    README.md                                               -->
+<!--    banner.svg                                              -->
+<!--    moveset.svg                                             -->
+<!--    pokedex.svg                                             -->
+<!--    footer.svg                                              -->
 <!--                                                            -->
-<!--  4. For the contribution SNAKE animation, add this         -->
-<!--     GitHub Action at:  .github/workflows/snake.yml         -->
-<!--                                                            -->
-<!--  name: Generate Snake                                      -->
-<!--  on:                                                       -->
-<!--    schedule:                                               -->
-<!--      - cron: "0 0 * * *"                                   -->
-<!--    workflow_dispatch:                                       -->
-<!--  jobs:                                                     -->
-<!--    generate:                                               -->
-<!--      runs-on: ubuntu-latest                                -->
-<!--      steps:                                                -->
-<!--        - uses: Platane/snk@v3                              -->
-<!--          with:                                             -->
-<!--            github_user_name: ${{ github.repository_owner }}-->
-<!--            outputs: |                                      -->
-<!--              dist/github-contribution-grid-snake.svg       -->
-<!--              dist/github-contribution-grid-snake-dark.svg?palette=github-dark -->
-<!--        - uses: crazy-max/ghaction-github-pages@v3          -->
-<!--          with:                                             -->
-<!--            target_branch: output                           -->
-<!--            build_dir: dist                                 -->
-<!--          env:                                              -->
-<!--            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}       -->
+<!--  Replace usernames if required.                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
